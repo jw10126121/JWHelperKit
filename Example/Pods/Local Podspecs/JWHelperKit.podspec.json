@@ -17,10 +17,17 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JWHelperKit/Classes/**/*",
-  "dependencies": {
-    "UINavigationControllerWithCompletionBlock": [
+  "default_subspecs": "Base",
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "JWHelperKit/Classes/Base/**/*",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "UINavigationControllerWithCompletionBlock": [
 
-    ]
-  }
+        ]
+      }
+    }
+  ]
 }

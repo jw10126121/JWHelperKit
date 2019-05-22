@@ -20,7 +20,9 @@ public extension Error {
 
     /// Error信息 默认实现
     var errorMessage: String {
-        guard let error = self as? ErrorMessageProtocol else { return self.localizedDescription }
+        guard let error = self as? ErrorMessageProtocol else {
+            return self.localizedDescription
+        }
         return error.errorMessage
     }
 

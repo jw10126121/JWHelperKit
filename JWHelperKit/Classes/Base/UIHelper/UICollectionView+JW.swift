@@ -9,7 +9,7 @@
 import UIKit
 
 // MARK: - 拓展UICollectionViewCell
-public extension JWNamespaceWrapper where T: UICollectionViewCell {
+public extension JWNamespaceWrapper where T: UICollectionReusableView {
     
     /// 获取cell所在的UICollectionView
     func collectionView() -> UICollectionView? {

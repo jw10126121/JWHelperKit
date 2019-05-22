@@ -12,7 +12,9 @@ import UIKit
 extension JWNamespaceWrapper where T: BinaryFloatingPoint {
     
     /// 根据屏幕宽度比例缩放
-    var scaleValueForScreenWidthRatio: T { return T(ceil(jwWrappedValue * T(UIDevice.jw.screenWidthScale))) }
+    var scaleValueForScreenWidthRatio: T {
+        return T(ceil(jwWrappedValue * T(UIDevice.jw.screenWidthScale)))
+    }
     
     var rmb: String? { return NSNumber(value: Float(jwWrappedValue)).jw.rmb }
     

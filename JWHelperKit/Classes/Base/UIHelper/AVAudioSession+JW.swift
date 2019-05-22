@@ -1,6 +1,6 @@
 //
 //  AVAudioSession+JW.swift
-//  AiXiaoYaApp
+//  Linjw
 //
 //  Created by linjw on 2018/11/12.
 //  Copyright © 2018 Linjw. All rights reserved.

@@ -6,13 +6,7 @@
 //  Copyright © 2018年 Linjw. All rights reserved.
 //
 
-import Foundation
 import UIKit
-
-public enum BarButtonItemType {
-    case left
-    case right
-}
 
 /// 拓展UIViewController
 public extension JWNamespaceWrapper where T: UIViewController {
@@ -29,7 +23,9 @@ public extension JWNamespaceWrapper where T: UIViewController {
     
     /// 安全区域
     var safeAreaInsets: UIEdgeInsets {
-        guard #available(iOS 11.0, *) else { return UIEdgeInsets.zero }
+        guard #available(iOS 11.0, *) else {
+            return UIEdgeInsets.zero
+        }
         return jwWrappedValue.view.safeAreaInsets
     }
     
@@ -38,39 +34,5 @@ public extension JWNamespaceWrapper where T: UIViewController {
         scrollView?.jw.contentInsetAdjustmentBehaviorAutomatic(auto)
     }
     
-//    /// 添加左边导航栏按钮
-//    func leftBarButton(_ items: [UIBarButtonItem]) {
-//        self.fixedBarButton(items, barButtonItemType: .left)
-//    }
-//
-//    /// 添加右边导航栏按钮
-//    func rightBarButton(_ items: [UIBarButtonItem]) {
-//        self.fixedBarButton(items, barButtonItemType: .right)
-//    }
-//
-//    /// 修复IOS7以上的偏移量
-//    private func fixedBarButton(_ items: [UIBarButtonItem], barButtonItemType: BarButtonItemType) {
-//
-//        let buttonItemSpacer = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
-//        buttonItemSpacer.width = -6
-//
-//        var barButtonItems = [UIBarButtonItem]()
-//        for barButtonItem in items {
-//
-//            if #available(iOS 11.0, *) {
-//                // do thing
-//            } else {
-//                barButtonItems.append(buttonItemSpacer)
-//            }
-//            barButtonItems.append(barButtonItem)
-//        }
-//
-//        switch barButtonItemType {
-//        case .left:
-//            jwWrappedValue.navigationItem.leftBarButtonItems = barButtonItems
-//        case .right:
-//            jwWrappedValue.navigationItem.rightBarButtonItems = barButtonItems
-//        }
-//    }
 }
 
