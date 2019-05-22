@@ -12,7 +12,7 @@ public extension JWNamespaceWrapper where T == NSMutableAttributedString {
     
 
     
-    public func bold() -> NSMutableAttributedString {
+    func bold() -> NSMutableAttributedString {
         
         let range = (jwWrappedValue.string as NSString).range(of: jwWrappedValue.string)
 
@@ -21,7 +21,7 @@ public extension JWNamespaceWrapper where T == NSMutableAttributedString {
         return jwWrappedValue
     }
     
-    public func underline() -> NSMutableAttributedString {
+    func underline() -> NSMutableAttributedString {
         
         let range = (jwWrappedValue.string as NSString).range(of: jwWrappedValue.string)
         

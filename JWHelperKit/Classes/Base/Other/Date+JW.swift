@@ -9,7 +9,7 @@
 import Foundation
 
 
-enum TimeFormatterType: String {
+public enum TimeFormatterType: String {
     case HHmm = "HH:mm"
     case mmss = "mm:ss"
 }
