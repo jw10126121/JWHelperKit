@@ -9,29 +9,29 @@
 // MARK: - 定义命名空间jw
 import UIKit
 
-public extension NSObject: JWNamespaceWrappable {}
-public extension String:   JWNamespaceWrappable {}
+extension NSObject: JWNamespaceWrappable {}
+extension String:   JWNamespaceWrappable {}
 
-public extension Bool:     JWNamespaceWrappable {}
+extension Bool:     JWNamespaceWrappable {}
 
-public extension CGFloat:  JWNamespaceWrappable {}
-public extension Float:    JWNamespaceWrappable {}
-public extension Double:   JWNamespaceWrappable {}
+extension CGFloat:  JWNamespaceWrappable {}
+extension Float:    JWNamespaceWrappable {}
+extension Double:   JWNamespaceWrappable {}
 
-public extension Int:      JWNamespaceWrappable {}
-public extension Int8:     JWNamespaceWrappable {}
-public extension Int16:    JWNamespaceWrappable {}
-public extension Int32:    JWNamespaceWrappable {}
-public extension Int64:    JWNamespaceWrappable {}
-public extension UInt:     JWNamespaceWrappable {}
-public extension UInt8:    JWNamespaceWrappable {}
-public extension UInt16:   JWNamespaceWrappable {}
-public extension UInt32:   JWNamespaceWrappable {}
-public extension UInt64:   JWNamespaceWrappable {}
+extension Int:      JWNamespaceWrappable {}
+extension Int8:     JWNamespaceWrappable {}
+extension Int16:    JWNamespaceWrappable {}
+extension Int32:    JWNamespaceWrappable {}
+extension Int64:    JWNamespaceWrappable {}
+extension UInt:     JWNamespaceWrappable {}
+extension UInt8:    JWNamespaceWrappable {}
+extension UInt16:   JWNamespaceWrappable {}
+extension UInt32:   JWNamespaceWrappable {}
+extension UInt64:   JWNamespaceWrappable {}
 
-public extension CGPoint:  JWNamespaceWrappable {}
-public extension CGSize:   JWNamespaceWrappable {}
-public extension CGRect:   JWNamespaceWrappable {}
+extension CGPoint:  JWNamespaceWrappable {}
+extension CGSize:   JWNamespaceWrappable {}
+extension CGRect:   JWNamespaceWrappable {}
 
 /// 命名空间 (可对这个进行拓展，T为被拓展的类型)
 public struct JWNamespaceWrapper<T> {
