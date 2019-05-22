@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension JWNamespaceWrapper where T == NSMutableAttributedString {
+public extension JWNamespaceWrapper where T == NSMutableAttributedString {
     
 
     

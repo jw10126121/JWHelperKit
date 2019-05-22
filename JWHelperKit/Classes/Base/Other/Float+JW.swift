@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension JWNamespaceWrapper where T == CGFloat {
+public extension JWNamespaceWrapper where T == CGFloat {
     
     /// px转成字体大小
     var pxToFontSize: CGFloat { return CGFloat(jwWrappedValue.pxToFontSize) }
@@ -20,8 +20,3 @@ fileprivate extension CGFloat {
 }
 
 
-//extension JWNamespaceWrapper where T == Float {
-//
-//    var rmb: String? { return NSNumber(value: Float(jwWrappedValue)).jw.rmb }
-//
-//}

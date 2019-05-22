@@ -15,7 +15,7 @@ import CommonCrypto
 import CommonCrypto
 
 
-extension JWNamespaceWrapper where T == String {
+public extension JWNamespaceWrapper where T == String {
     
     // api 与参数拼接
     func api(addParams: [String: Any]) -> String {
@@ -136,7 +136,7 @@ extension JWNamespaceWrapper where T == String {
     
 }
 
-extension JWNamespaceWrapper where T == String {
+public extension JWNamespaceWrapper where T == String {
     
     
     var md5: String {
@@ -288,7 +288,7 @@ enum CommonMatchRegex: String {
 }
 
 /// 正则
-extension JWNamespaceWrapper where T == String {
+public extension JWNamespaceWrapper where T == String {
    
     // 正则匹配
     func isMatch(byRegex: String) -> Bool {

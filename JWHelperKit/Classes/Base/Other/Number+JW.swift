@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - NSNumber 扩展
-extension JWNamespaceWrapper where T: NSNumber {
+public extension JWNamespaceWrapper where T: NSNumber {
     
     /// 最多2位小数，最少0位小数，比如1.99，1.9，1
     var rmb: String? {

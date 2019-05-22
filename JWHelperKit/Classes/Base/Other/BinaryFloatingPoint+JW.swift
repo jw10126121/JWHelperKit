@@ -9,7 +9,7 @@
 import UIKit
 
 /// 浮点型 (BinaryFloatingPoint: Float, Double, Float80, CGFloat)
-extension JWNamespaceWrapper where T: BinaryFloatingPoint {
+public extension JWNamespaceWrapper where T: BinaryFloatingPoint {
     
     /// 根据屏幕宽度比例缩放
     var scaleValueForScreenWidthRatio: T {

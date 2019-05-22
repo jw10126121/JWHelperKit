@@ -10,12 +10,12 @@ import UIKit
 
 
 
-extension JWNamespaceWrapper where T == UITextField {
+public extension JWNamespaceWrapper where T == UITextField {
     
     
     
     /// 添加左边Icon
-    public func addPaddingLeftIcon(_ image: UIImage?, padding: CGFloat, mode: UITextField.ViewMode = .always) {
+    func addPaddingLeftIcon(_ image: UIImage?, padding: CGFloat, mode: UITextField.ViewMode = .always) {
         
         if jwWrappedValue.leftView as? UIImageView == nil {
             
@@ -30,7 +30,7 @@ extension JWNamespaceWrapper where T == UITextField {
     }
     
     /// 添加右边Icon
-    public func addPaddingRightIcon(_ image: UIImage?, padding: CGFloat, mode: UITextField.ViewMode = .always) {
+    func addPaddingRightIcon(_ image: UIImage?, padding: CGFloat, mode: UITextField.ViewMode = .always) {
         
         if jwWrappedValue.leftView as? UIImageView == nil {
             
@@ -48,10 +48,3 @@ extension JWNamespaceWrapper where T == UITextField {
     
 }
 
-
-extension UITextField {
-    
-    
-    
-    
-}

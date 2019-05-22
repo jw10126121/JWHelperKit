@@ -15,7 +15,7 @@ enum TimeFormatterType: String {
 }
 
 
-extension JWNamespaceWrapper where T == Date {
+public extension JWNamespaceWrapper where T == Date {
     
     func toFormattedString(_ formatterType: TimeFormatterType) -> String {
         
@@ -30,7 +30,7 @@ extension JWNamespaceWrapper where T == Date {
     
 }
 
-extension JWNamespaceWrapper where T == TimeInterval {
+public extension JWNamespaceWrapper where T == TimeInterval {
     
     func toPlayTimeStr() -> String {
         

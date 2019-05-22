@@ -12,19 +12,19 @@ import CoreGraphics
 
 
 /// 拓展UIImage
-extension JWNamespaceWrapper where T: UIImage {
+public extension JWNamespaceWrapper where T: UIImage {
     
     /// 模板图
-    public var imageTemplate: UIImage { return jwWrappedValue.withRenderingMode(.alwaysTemplate) }
+    var imageTemplate: UIImage { return jwWrappedValue.withRenderingMode(.alwaysTemplate) }
     
     /// 原图
-    public var imageOriginal: UIImage { return jwWrappedValue.withRenderingMode(.alwaysOriginal) }
+    var imageOriginal: UIImage { return jwWrappedValue.withRenderingMode(.alwaysOriginal) }
     
     /// 数据大小
-    public var bytesSize: Int { return jwWrappedValue.jpegData(compressionQuality: 1)?.count ?? 0 }
+    var bytesSize: Int { return jwWrappedValue.jpegData(compressionQuality: 1)?.count ?? 0 }
     
     /// 压缩比
-    public func ratioValue(compressionBytesSize: Int) -> CGFloat {
+    func ratioValue(compressionBytesSize: Int) -> CGFloat {
         let oriSize = self.bytesSize
         if oriSize > 0, oriSize > compressionBytesSize {
             return CGFloat(compressionBytesSize) / CGFloat(oriSize)
@@ -33,17 +33,17 @@ extension JWNamespaceWrapper where T: UIImage {
     }
     
     /// 九宫格拉伸
-    public var resizable: UIImage {
+    var resizable: UIImage {
         let widthFloat = floor(jwWrappedValue.size.width/2)
         let heightFloat = floor(jwWrappedValue.size.height/2)
         return jwWrappedValue.resizableImage(withCapInsets: UIEdgeInsets(top: heightFloat, left: widthFloat, bottom: heightFloat, right: widthFloat))
     }
     
     /// Base64 String
-    public var base64: String { return jwWrappedValue.jpegData(compressionQuality: 1)?.base64EncodedString() ?? "" }
+    var base64: String { return jwWrappedValue.jpegData(compressionQuality: 1)?.base64EncodedString() ?? "" }
     
     /// 更改图片颜色
-    public func image(tintColor color: UIColor) -> UIImage {
+    func image(tintColor color: UIColor) -> UIImage {
         
         UIGraphicsBeginImageContextWithOptions(jwWrappedValue.size, false, jwWrappedValue.scale)
         color.setFill()
@@ -65,10 +65,10 @@ extension JWNamespaceWrapper where T: UIImage {
     }
     
     /// 填充透明区域颜色
-    public func image(fillColor: UIColor) -> UIImage { return jwWrappedValue.image(fillColor: fillColor) }
+    func image(fillColor: UIColor) -> UIImage { return jwWrappedValue.image(fillColor: fillColor) }
     
     /// 通过颜色，生成图片
-    public static func image(fromColor color: UIColor, size: CGSize = CGSize(width: 1, height: 1), cornerRadius: CGFloat = 0) -> UIImage {
+    static func image(fromColor color: UIColor, size: CGSize = CGSize(width: 1, height: 1), cornerRadius: CGFloat = 0) -> UIImage {
         
         let width = max(size.width, CGFloat(cornerRadius * 2 + 1))
         let height = max(size.height, CGFloat(cornerRadius * 2 + 1))
@@ -89,7 +89,7 @@ extension JWNamespaceWrapper where T: UIImage {
         return image.resizableImage(withCapInsets: UIEdgeInsets(top: CGFloat(cornerRadius), left: CGFloat(cornerRadius), bottom: CGFloat(cornerRadius), right: CGFloat(cornerRadius)))
     }
     
-    public func image(scale size: CGSize) -> UIImage {
+    func image(scale size: CGSize) -> UIImage {
         
         UIGraphicsBeginImageContext(size)
         jwWrappedValue.draw(in: CGRect(x: 0, y: 0, width: size.width, height: size.height))

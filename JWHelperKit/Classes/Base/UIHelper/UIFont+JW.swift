@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension JWNamespaceWrapper where T == UIFont {
+public extension JWNamespaceWrapper where T == UIFont {
 
     /// 根据像素生成字体
     static func systemFont(ofPx px: CGFloat) -> UIFont {
