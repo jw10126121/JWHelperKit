@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/jw10126121/JWHelperKit"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "jw10126121" => "10126121@qq.com" }
-    s.social_media_url   = "http://twitter.com/ashfurrow"
     s.ios.deployment_target = '9.0'
     s.source       = { :git => "https://github.com/jw10126121/JWHelperKit.git", :tag => s.version }
     s.default_subspec = "Base"
