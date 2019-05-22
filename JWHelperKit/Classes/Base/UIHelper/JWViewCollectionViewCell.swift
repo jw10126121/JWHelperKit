@@ -12,7 +12,7 @@ import UIKit
 public final class JWViewCollectionViewCell<View: UIView>: UICollectionViewCell {
     
     /// 具体内容
-    let containerView: View = View()
+    public let containerView: View = View()
     
     override init(frame: CGRect) {
         super.init(frame: frame)

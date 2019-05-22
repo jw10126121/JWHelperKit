@@ -12,7 +12,7 @@ import UIKit
 public final class JWViewTableViewCell<View: UIView>: UITableViewCell {
     
     /// 具体内容
-    let containerView: View = View()
+    public let containerView: View = View()
     
     public override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

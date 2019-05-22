@@ -9,7 +9,7 @@
 import UIKit
 
 
-@IBDesignable extension UILabel {
+@IBDesignable public extension UILabel {
     
     /// (最大宽度 = 屏幕宽度 - maxLayoutToScreenWidth)
     @IBInspectable dynamic var maxLayoutToScreenWidth: CGFloat {
