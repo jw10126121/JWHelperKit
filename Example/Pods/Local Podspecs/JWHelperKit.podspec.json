@@ -1,6 +1,6 @@
 {
   "name": "JWHelperKit",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "summary": "JWHelperKit: Swift拓展",
   "description": "JWHelperKit: Swift拓展",
   "homepage": "https://github.com/jw10126121/JWHelperKit",
@@ -16,23 +16,19 @@
   },
   "source": {
     "git": "https://github.com/jw10126121/JWHelperKit.git",
-    "tag": "1.0.0"
+    "tag": "1.0.3"
   },
   "swift_versions": "5.0",
   "cocoapods_version": ">= 1.4.0",
   "subspecs": [
     {
       "name": "Base",
-      "source_files": [
-        "JWHelperKit/Classes/Base/",
-        "JWHelperKit/Classes/Base/Other/",
-        "JWHelperKit/Classes/Base/UIHelper/"
-      ],
+      "source_files": "JWHelperKit/Classes/Base/**/*",
       "frameworks": "UIKit"
     },
     {
       "name": "Navigation",
-      "source_files": "JWHelperKit/Classes/Navigation/",
+      "source_files": "JWHelperKit/Classes/Navigation/**/*",
       "dependencies": {
         "JWHelperKit/Base": [
 

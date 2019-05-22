@@ -9,9 +9,6 @@ Pod::Spec.new do |s|
     s.name         = 'JWHelperKit'
     s.version      = '1.0.3'
     s.summary      = 'JWHelperKit: Swift拓展'
-    s.description      = <<-DESC
-    JWHelperKit: Swift拓展
-    DESC
     s.homepage     = 'https://github.com/jw10126121/JWHelperKit'
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author             = { 'jw10126121' => '10126121@qq.com' }
@@ -19,7 +16,6 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/jw10126121/JWHelperKit.git', :tag => s.version }
     #s.default_subspec = 'Base' #不能设置default_subspec,否则subspec不生效
     s.swift_version = '5.0'
-    s.cocoapods_version = '>= 1.4.0'
 
     s.subspec 'Base' do |base|
         base.source_files  = 'JWHelperKit/Classes/Base/**/*'#, 'JWHelperKit/Classes/Base/Other/', 'JWHelperKit/Classes/Base/UIHelper/'

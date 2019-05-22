@@ -1,10 +1,10 @@
 PODS:
   - JRSwizzle (1.0)
-  - JWHelperKit (1.0.0):
-    - JWHelperKit/Base (= 1.0.0)
-    - JWHelperKit/Navigation (= 1.0.0)
-  - JWHelperKit/Base (1.0.0)
-  - JWHelperKit/Navigation (1.0.0):
+  - JWHelperKit (1.0.3):
+    - JWHelperKit/Base (= 1.0.3)
+    - JWHelperKit/Navigation (= 1.0.3)
+  - JWHelperKit/Base (1.0.3)
+  - JWHelperKit/Navigation (1.0.3):
     - JWHelperKit/Base
     - UINavigationControllerWithCompletionBlock
   - UINavigationControllerWithCompletionBlock (0.0.8):
@@ -24,7 +24,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
-  JWHelperKit: a2263d102c82983f1a78e23082ab62b6e13e57fc
+  JWHelperKit: 19f0ad5ce909ddadeb0bf0413465c80dc30273ba
   UINavigationControllerWithCompletionBlock: c043176ee769b1e108761fff73ed776645f0f9d0
 
 PODFILE CHECKSUM: 1c394b78904a70ec65b83777d56e469b8852126f
