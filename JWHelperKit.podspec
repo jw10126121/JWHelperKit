@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
     s.name         = 'JWHelperKit'
-    s.version      = '1.0.2'
+    s.version      = '1.0.3'
     s.summary      = 'JWHelperKit: Swift拓展'
     s.description      = <<-DESC
     JWHelperKit: Swift拓展
@@ -22,12 +22,12 @@ Pod::Spec.new do |s|
     s.cocoapods_version = '>= 1.4.0'
 
     s.subspec 'Base' do |base|
-        base.source_files  = 'JWHelperKit/Classes/Base/', 'JWHelperKit/Classes/Base/Other/', 'JWHelperKit/Classes/Base/UIHelper/'
+        base.source_files  = 'JWHelperKit/Classes/Base/**/*'#, 'JWHelperKit/Classes/Base/Other/', 'JWHelperKit/Classes/Base/UIHelper/'
         base.framework  = 'UIKit'
     end
     
     s.subspec 'Navigation' do |navigation|
-        navigation.source_files = 'JWHelperKit/Classes/Navigation/'
+        navigation.source_files = 'JWHelperKit/Classes/Navigation/**/*'
         navigation.dependency 'JWHelperKit/Base'
         navigation.dependency 'UINavigationControllerWithCompletionBlock'
     end
