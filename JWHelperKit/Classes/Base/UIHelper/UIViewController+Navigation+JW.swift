@@ -9,21 +9,6 @@
 import Foundation
 import UIKit
 
-/// 控制器显示方式
-enum JWViewControllerAppearType {
-    case none
-    case push
-    case present
-}
-
-/// 控制器消失方式
-enum JWViewControllerDisappearType {
-    case none
-    case pop
-    case popToRoot
-    case dismiss
-}
-
 public extension JWNamespaceWrapper where T: UIViewController {
     
     /// 获取活动的VC

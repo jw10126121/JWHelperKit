@@ -9,7 +9,7 @@
 import UIKit
 
 /// NSLayoutConstraint.fix
-@IBDesignable extension NSLayoutConstraint {
+@IBDesignable public extension NSLayoutConstraint {
     
     /// 偏移导航栏条高度
     @IBInspectable var autoOffsetNavBarHeight: Bool {
