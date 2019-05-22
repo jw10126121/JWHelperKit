@@ -2,6 +2,6 @@
 <testsuites name='JWHelperKit_Tests.xctest' tests='2' failures='0'>
   <testsuite name='JWHelperKit_Tests.Tests' tests='2' failures='0'>
     <testcase classname='JWHelperKit_Tests.Tests' name='testExample' time='0.001'/>
-    <testcase classname='JWHelperKit_Tests.Tests' name='testPerformanceExample' time='0.265'/>
+    <testcase classname='JWHelperKit_Tests.Tests' name='testPerformanceExample' time='0.264'/>
   </testsuite>
 </testsuites>
