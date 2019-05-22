@@ -1,0 +1,6 @@
+framework module Pods_JWHelperKit_Example {
+  umbrella header "Pods-JWHelperKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

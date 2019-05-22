@@ -1,0 +1,6 @@
+framework module JWHelperKit {
+  umbrella header "JWHelperKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

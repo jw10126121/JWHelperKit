@@ -1,0 +1,21 @@
+{
+  "name": "JWHelperKit",
+  "version": "0.1.0",
+  "summary": "JWHelperKit",
+  "homepage": "https://github.com/jw10126121/JWHelperKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jw10126121": "10126121@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jw10126121/JWHelperKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JWHelperKit/Classes/**/*"
+}

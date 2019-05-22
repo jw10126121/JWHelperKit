@@ -1,0 +1,6 @@
+framework module Pods_JWHelperKit_Tests {
+  umbrella header "Pods-JWHelperKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

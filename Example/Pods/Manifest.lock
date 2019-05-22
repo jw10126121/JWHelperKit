@@ -1,0 +1,16 @@
+PODS:
+  - JWHelperKit (0.1.0)
+
+DEPENDENCIES:
+  - JWHelperKit (from `../`)
+
+EXTERNAL SOURCES:
+  JWHelperKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JWHelperKit: ffa7fecd1134bb72aad74ba1d35490c6d506c1d1
+
+PODFILE CHECKSUM: 1c394b78904a70ec65b83777d56e469b8852126f
+
+COCOAPODS: 1.7.0.rc.2
