@@ -1,17 +1,31 @@
 PODS:
+  - JRSwizzle (1.0)
   - JWHelperKit (1.0.0):
     - JWHelperKit/Base (= 1.0.0)
+    - JWHelperKit/Navigation (= 1.0.0)
   - JWHelperKit/Base (1.0.0)
+  - JWHelperKit/Navigation (1.0.0):
+    - JWHelperKit/Base
+    - UINavigationControllerWithCompletionBlock
+  - UINavigationControllerWithCompletionBlock (0.0.8):
+    - JRSwizzle (~> 1.0)
 
 DEPENDENCIES:
   - JWHelperKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JRSwizzle
+    - UINavigationControllerWithCompletionBlock
 
 EXTERNAL SOURCES:
   JWHelperKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JWHelperKit: 5c835b7037928cc29b0493411f26cdb98b33259b
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  JWHelperKit: a2263d102c82983f1a78e23082ab62b6e13e57fc
+  UINavigationControllerWithCompletionBlock: c043176ee769b1e108761fff73ed776645f0f9d0
 
 PODFILE CHECKSUM: 1c394b78904a70ec65b83777d56e469b8852126f
 

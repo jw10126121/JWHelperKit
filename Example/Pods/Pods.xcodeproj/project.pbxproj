@@ -7,62 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0738F44BFF365C232589065CB4449E3F /* Bool+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734DAD4D0AB34010ACEC54D44AD8F8E9 /* Bool+JW.swift */; };
-		09FBD69C744645750A69C1DF52723865 /* JWViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75897626484A5006645C50ED5130ECA8 /* JWViewCollectionViewCell.swift */; };
-		11C0987A97741F11DD8BA2B5B497F8A9 /* UIViewController+Navigation+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2033B652A62D4160C005B38EED595 /* UIViewController+Navigation+JW.swift */; };
-		12374F4D7B81EC9486F91A53A6A141B8 /* UIView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD268B18E627FFE1F0C28281514D94 /* UIView+JW.swift */; };
-		16B69E174378A294AAA9C12A5A4623EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		1D1A25DEBE19BCDF97CC1DE3216E466C /* UIScrollView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6063F7967F4D0A0EC1C4011D382248E /* UIScrollView+JW.swift */; };
-		1F315858F5FF82CE1DB9906D9BAF0E95 /* Dictionary+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F867D442F732BE621700D31698A3808 /* Dictionary+JW.swift */; };
-		254FD775AD02C128374E38164683C78D /* JWChooseImageMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF848DE90979491BD5B985F56B2621EF /* JWChooseImageMode.swift */; };
-		25C5FADEA4506BA490E1411DDDB839EC /* UIView+JW+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A694DB54E509834B1073C4B15C75D4E9 /* UIView+JW+Animation.swift */; };
-		260E2DF6DE3FC85B58BA8B9AAB5B6721 /* Date+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A07669BCA335EFB007DDDD239AD77D /* Date+JW.swift */; };
-		26C2962E756700F7C59B035BEA85FD45 /* String+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EE63C03AD4CF219F93E1BC4DE89B68 /* String+JW.swift */; };
-		28441583FA80001B7C25A364E96D8987 /* UIColor+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BDDF3678C17A0F3946D83FA1D3BF7 /* UIColor+JW.swift */; };
-		2BB2E5685E24B3B10344E13D00649D61 /* NSMutableAttributedString+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06831FDED55CF7273C0D83D705A258 /* NSMutableAttributedString+JW.swift */; };
-		2CD4F583F2219CA6F6E77906A4B01763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		311975915AB5D25E3F6A9C88E2632D0B /* UICollectionView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C739AB5F285438DD61F24B0CE9113F /* UICollectionView+JW.swift */; };
-		39366FFEED9172A24C2661DC80589553 /* UITableView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9732B2B52DEB6363FF7EFD772A0BB682 /* UITableView+JW.swift */; };
-		46C7F6BC66C5164335AEC5233B777C81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
-		4EA16FF7588E61B34518741BF6468CF6 /* JWHelperKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC1605DBF8D4ED21969052BF48DAACB /* JWHelperKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F4F38D33A32C7E7FE011E7A98361872 /* UIButton+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CA8F3A29A673001CC708AB865E4E3 /* UIButton+JW.swift */; };
-		52DE07A77346887F764ED358B1B501A2 /* UIStackView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5EA017716F692DEEB955E91C98501 /* UIStackView+JW.swift */; };
-		5360AF283E61AC19A3E4B5E442BDE808 /* BinaryFloatingPoint+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337743C0008AE46DDA5F814B46106479 /* BinaryFloatingPoint+JW.swift */; };
-		57CE0E3386CB00F146FB6CEF91B95D7B /* UIAlertController+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BEA56D7978B0CA13B546410F7A728 /* UIAlertController+JW.swift */; };
-		5DD0E6E95F24022280884F7D6D6654A0 /* UICollectionViewFlowLayout+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF112BFF88B44188BDC6C923683AC47 /* UICollectionViewFlowLayout+JW.swift */; };
-		62E3A53DA14783F64CD662BD1ADCC56B /* JWNamespaceWrappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865AF1B42728E988F32A1283D2B2A88 /* JWNamespaceWrappable.swift */; };
-		64ABE0FC767199FAE6B6C942E97D3189 /* Data+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC04E0FCC16214CBE31968E196920A5 /* Data+JW.swift */; };
+		0064737B5C5F9B050869342376D400AF /* UINavigation+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6BE736E37BB817A01B451441A3BCB /* UINavigation+JW.swift */; };
+		06DD245DB28823846D489FF0DD3740E5 /* UILayout+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C7128EBF0FE851FA244B69969E084 /* UILayout+JW.swift */; };
+		0B8A646BF26BFB1410A565C347887364 /* UIView+JW+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70073760472F7C77166F28E33B533198 /* UIView+JW+Animation.swift */; };
+		0D6C97D20E773ECE893B2C8F7324C9CC /* JWNamespaceWrappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E1467CCD88F7BB3C77BA1C91C2335B /* JWNamespaceWrappable.swift */; };
+		1015A3AA7628913002854B06EF358603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8EFA8C448D5A2B3D3565E3D9F54635 /* Foundation.framework */; };
+		10862D10A8E71B8FD1DC174C19319684 /* UIStackView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5698580CC29F263D578659169705DF8 /* UIStackView+JW.swift */; };
+		115A1A6B2440D817440F512857B804EE /* UICollectionView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0429426C84E0D3CB355DFD96E8585 /* UICollectionView+JW.swift */; };
+		195C49AA07491238C71201706B167ADC /* UIPanGestureRecognizer+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF35BC80B6E36718E08216DDA95743 /* UIPanGestureRecognizer+JW.swift */; };
+		1F56C5B11855D805CAA6A054DDE18C0A /* UIFont+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029076EE0557BA2FC0DFC5591D25F97 /* UIFont+JW.swift */; };
+		224C0255E27729BB6537D5F4EB02A737 /* Int+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C212747E6C489192C156FACA6372C5 /* Int+JW.swift */; };
+		2CD4F583F2219CA6F6E77906A4B01763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8EFA8C448D5A2B3D3565E3D9F54635 /* Foundation.framework */; };
+		2E3F00116D4876BFCE2A3FFB6364F81F /* UIViewController+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E14826EAD07ADE4F4EF5C49AD78E9E6 /* UIViewController+JW.swift */; };
+		33C7F077BFDC79604E2785A61E79BEA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8EFA8C448D5A2B3D3565E3D9F54635 /* Foundation.framework */; };
+		373CE5BF71D099F6EBCCDEED3E76C9A6 /* UIViewController+DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A661E5A37039AD4BC0EE52846070C3 /* UIViewController+DismissKeyboard.swift */; };
+		37A96FF23B418055E44F66CF591573D6 /* Pods-JWHelperKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 461585F56BFF89DCD470E8CE55139F37 /* Pods-JWHelperKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38C433F8C0714DD8FACF897FD88EE1D4 /* JWHelperKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9634F39B5FDEED09BD69EA9C402B3B1D /* JWHelperKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39370B6A8A9D50A4B984965B4940AB5C /* Number+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B1295DF78EF367ADC9B2E12DE3138 /* Number+JW.swift */; };
+		3984F38B7AC1070DE06F324AEA36F073 /* JWHelperKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E87EA1A72D0AB08435DDF39E3215AA /* JWHelperKit-dummy.m */; };
+		3ACD38E41B0998176F592C267ABF35B4 /* UIColor+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD331CC8BEB4305F45EC00241B153356 /* UIColor+JW.swift */; };
+		3BE4DEF2D76AABD6EC26FF7C0711C406 /* UIButton+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5DD1DA5E6DE760163A66060FF3D7A1 /* UIButton+JW.swift */; };
+		4001E90EAB54EDD38C07D45C26FB8058 /* JWChooseImageMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD65D7833C0E88F943926CBA206448 /* JWChooseImageMode.swift */; };
+		4285786A6D4AC95EDAC52198F105012F /* UINavigationControllerWithCompletionBlock.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C31B11DFE63A54C5D6262072AFD9063 /* UINavigationControllerWithCompletionBlock.bundle */; };
+		43F963685BA81838C0123BCC37491BFC /* Optional+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B325B514987BBBF740B7DAD5A75229 /* Optional+JW.swift */; };
+		472017F67532999C10C27EF26F8C060C /* Pods-JWHelperKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3A54B4E59C1268C2BF91F8D948BF86 /* Pods-JWHelperKit_Example-dummy.m */; };
+		48769F0AA2A5E4294C50E8981137186D /* UINavigationControllerWithCompletionBlock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C651FB6C390383C66F25BE807B41F219 /* UINavigationControllerWithCompletionBlock-dummy.m */; };
+		49EF38EC52FA3C636ED57584FD1A5918 /* UITextfield+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EAC94290626DDA3A13C2CB6147FA23 /* UITextfield+JW.swift */; };
+		50DDE6354144769ECE0063C1C2BB59B9 /* JRSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DAD61D5AEC4AC19803BF4986ED8009 /* JRSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AAE3540B1DD26421616808B71643B57 /* Bool+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F4E6B131FBBEB5DC0DADE14EC7DDF0 /* Bool+JW.swift */; };
+		5EB265DA3F421F5BDCC06A131AB3E2E6 /* NSMutableAttributedString+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789B9C3FB71DE86AE357EEC6A9B9D54 /* NSMutableAttributedString+JW.swift */; };
+		662BD933B9AD61B5DA1255E516353120 /* JRSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC430FFCC3518E2C342A9D8C38FA0B2 /* JRSwizzle.framework */; };
 		6C66D880C78FCFE01011F987115339BE /* Pods-JWHelperKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAFF3655BDD305E2D9D0251E446CAA4 /* Pods-JWHelperKit_Tests-dummy.m */; };
-		6CC9DC7558FA35204301D72C88A22D44 /* UIViewController+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D4EB6B2E64F2D36A6BCED40BA63AB /* UIViewController+JW.swift */; };
-		735DBB484072C70E93E575F57BD6343C /* AVAudioSession+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE16851C08C6B18CB35CEDDC960DBD5 /* AVAudioSession+JW.swift */; };
-		84E2EAA242DB2C925B68A782B8FEACC2 /* UITextfield+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD4C94AAB18485EBD0A2AC2F1D72BF /* UITextfield+JW.swift */; };
-		882EFD93B28CCF49865A9E59DCBF3E7B /* Number+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3633FD6C55C64478D9F5031B857F5D6 /* Number+JW.swift */; };
+		737F1A275258357DEAA80DF5EB881691 /* UINavigationControllerWithCompletionBlock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D63A49B26B92A8E2D29228BAAD6C92 /* UINavigationControllerWithCompletionBlock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8023424E337297C0083C64313F5CCB93 /* UISwitch+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C8C732DC5814C01201317AC9474A3 /* UISwitch+JW.swift */; };
+		804D7B17C111ADA251C807D0BDDF22B8 /* UIDevice+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D7446AD297364941DF26FB2425D56 /* UIDevice+JW.swift */; };
+		80EC3F632344FBCE37502DD8C5A77CB1 /* BinaryFloatingPoint+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F903035C23918B112AAF6934D31270 /* BinaryFloatingPoint+JW.swift */; };
+		8A7E4B7A0523D787CD1420C718388405 /* JMONavigationAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED85F973A1538F335FA9037D8225E7 /* JMONavigationAction.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8C7691D5D1A72432D4871E235BB13609 /* Pods-JWHelperKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFBA307C4A9D1451027CAA3B673E644 /* Pods-JWHelperKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E09399729B87CBFF8DA054DCDABB476 /* Float+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350ECACF7A82AFD0F205A4F019EA31CF /* Float+JW.swift */; };
-		8EF7A42F461B6ACC4FA480E146DCB919 /* WebView+State+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = E014D221FCCCCB68D7B3974E8AFB1867 /* WebView+State+JW.swift */; };
-		91896B755953D5293AC767906BF53AEE /* DataBaseTableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BF10B275688864C82B27EB3EB0DEF /* DataBaseTableProtocol.swift */; };
-		99B705037F14DB507869BC345EBF8326 /* Error+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9CC581514CEA260F3DE44C36EE1FF /* Error+JW.swift */; };
-		9E5DB036E55D3B69964A64A212A41178 /* JWChainCallHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935C72D239CD84FE0F1E253A5E598D59 /* JWChainCallHelper.swift */; };
-		A2BDF0F4C60E8DC5C93087DDF19CFFAA /* Pods-JWHelperKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3A54B4E59C1268C2BF91F8D948BF86 /* Pods-JWHelperKit_Example-dummy.m */; };
-		A641A4759032618FAF72885D133942B1 /* JWHelperKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B918B105308605805DBB17A84F117 /* JWHelperKit-dummy.m */; };
-		A6FEE25461AB8E9C554C1809FF592555 /* Int+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628D83F6E64D25F1E411714BF6FA0C5 /* Int+JW.swift */; };
-		B4DF237F6E9FEC277012F639EF272C10 /* UIFont+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13B8FE143E3BF37A6398AE2D70CDB3E /* UIFont+JW.swift */; };
-		BAB70D975FD2CFE1C44AF272C39020BD /* Pods-JWHelperKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 461585F56BFF89DCD470E8CE55139F37 /* Pods-JWHelperKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE703BF25EEC916B08CB02A28882170F /* UIDevice+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B75A26815EC3F57CA3ED526B4AB8D /* UIDevice+JW.swift */; };
-		C04C35D2AEB62C6E1EBFCE5AB957E757 /* UIViewController+DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F86D1D8F030D5240258FF090EDB23 /* UIViewController+DismissKeyboard.swift */; };
-		C0D07A28BFBC7DCDBBB7C09722DC0FDD /* Optional+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7097CC01CC793380D95FE56B09DA8D54 /* Optional+JW.swift */; };
-		CEF3A2E3AD51257C1CA065064E517A17 /* UIPanGestureRecognizer+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB238A16F546F00A8AF9432E3C7F853 /* UIPanGestureRecognizer+JW.swift */; };
-		D554C76CEE3DF02700AA6BB507A90B40 /* UISwitch+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C28B908325EBDA7686B356342ACE6B /* UISwitch+JW.swift */; };
-		E38F07AB1555774B1CD0FAF8B12F810D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		F1B7AC6C9C24D4166B7FB46E110357F4 /* UILabel+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4ACD9C7F1010315B94459C435C68C /* UILabel+JW.swift */; };
-		F229F63649667C7DD6F0A71A1591AF17 /* UIImage+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995D5422F533BAB6689F4948F960C99E /* UIImage+JW.swift */; };
-		F3F174C986FD20E8269CBD343A3FD973 /* UILayout+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DE3FAB6EFCBFE29BF03CCBF41A04C /* UILayout+JW.swift */; };
-		FB26D6ACA0B29D8BB506EC1634F0A209 /* MultiplePageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1ACE45A46D7BD033AE4CE7A96A716 /* MultiplePageable.swift */; };
-		FFFF1715EE76ACB45CD3000C5460F10F /* JWViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87FB8EEE624698EA4E461C7C1B8EE0D /* JWViewTableViewCell.swift */; };
+		8CA518FEC4F1F818068E59F503D81BA3 /* UIAlertController+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49623C079CA29EC9D4CDD5F320F883D8 /* UIAlertController+JW.swift */; };
+		8FA272EBE6841DABEF6C14A5E4CE271E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8EFA8C448D5A2B3D3565E3D9F54635 /* Foundation.framework */; };
+		9101086A5ED6AA726D37AA011B2A630E /* AVAudioSession+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104592EC0420EC39F9EA18481DB8ADF /* AVAudioSession+JW.swift */; };
+		941B5C76684ED15B2D5A50D9B32864C9 /* JWChainCallHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BFFC108DCB1330A0027483193352BE /* JWChainCallHelper.swift */; };
+		954380A25B354060E932C8B09EE0B642 /* WebView+State+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FC8E48F9CF4CD2DED3B2D18D5A676D /* WebView+State+JW.swift */; };
+		9FD9FE81148F2973203C74ACA1FBD2E3 /* DataBaseTableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15BB28B68C20A6BAB6F5459F1059F19 /* DataBaseTableProtocol.swift */; };
+		A4E188E11062DB240BABAFE0A69B8116 /* MultiplePageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA272E225D9769E31B389EF3A266941 /* MultiplePageable.swift */; };
+		A70285AB2CFB94A8C05D53F0D3B551E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2A5B3FCF7D8AC840BD07D76BB6C00E /* UIKit.framework */; };
+		AA8CB029E7F3AE007A8C9FF7E7FF9100 /* JRSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7274DEBEDDD8B95D18F9ABB94FCF0 /* JRSwizzle-dummy.m */; };
+		AAB77B1A5A23F144021A117369D5B560 /* UINavigationControllerWithCompletionBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095348C0019783D380940DCB51C27D07 /* UINavigationControllerWithCompletionBlock.framework */; };
+		AFCFAD4A8DF17FC6D60A95F441701C42 /* Float+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0654910F2BB2A77721BD56D8D6B81512 /* Float+JW.swift */; };
+		B197C9B03C09A5C10831AE3485A3C396 /* Dictionary+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = E792A0CF842FD890C4B557DEB2CD9C07 /* Dictionary+JW.swift */; };
+		BA84EA81A65656421A54AC2940ED5D03 /* UIView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5644DBFE81EEDF8C9925798763F2FB81 /* UIView+JW.swift */; };
+		BF5864F7063AD6422159352F05430437 /* UINavigationController+CompletionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F052658CF40F228A6920B214871DB313 /* UINavigationController+CompletionBlock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF7C4852AF2383D49A291F7831754AE5 /* JMONavigationAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C677D8C623473FCD4BED3B30EDD97C9 /* JMONavigationAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0770A1B94328062720A052778E52DA0 /* UIScrollView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D993777636DB78F26CD528DF384223 /* UIScrollView+JW.swift */; };
+		C1C4E5D6FB490F76FB5DC88999F6CA64 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF79A560B29768B6F2858E82357A504 /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB044E3AD8425E4BDBB589460755EFE0 /* UILabel+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6F347444DCAB7FDDAE83A42D4E9D0 /* UILabel+JW.swift */; };
+		CDAD5456958C692691A0816A3FEB022E /* UIViewController+Navigation+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7E077EF24F7D2768B4C334BF9F701 /* UIViewController+Navigation+JW.swift */; };
+		D2B7E1637A0A7F5DCC5C32BDFCB3764A /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FA10F174CCDD840BD9E46C5A00200ECC /* JRSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D2D554A3DE9CA7F661CDACE8B9012B52 /* JWViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4243FD241430FCB552F646A594B855 /* JWViewCollectionViewCell.swift */; };
+		D309002779BD4FC7FF6EB45413181E8F /* UICollectionViewFlowLayout+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3D7F2E9E19EF7D83E3327D9BA63D89 /* UICollectionViewFlowLayout+JW.swift */; };
+		D843B9FE35D652A1A494EFC1ECC1D2E2 /* UINavigationController+CompletionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A4CBF32CF6E5E529C7F874ADB4140F /* UINavigationController+CompletionBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D21CBA450F56AB8A7847AB24DAC210 /* Error+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F51FEA72133C85B94246FD2FFFEA7 /* Error+JW.swift */; };
+		DB2DD77D4E96290FCE59C4D04F887F80 /* Data+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2297B8CFBEE5C2E3E20DEE7AC2BD451 /* Data+JW.swift */; };
+		DF024E55780C4509B0F73B23584EEE95 /* UINavigation+JW+Completion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00209D9CA7E46626F2AF11A97730EE /* UINavigation+JW+Completion.swift */; };
+		E378799BD9A2A3BD09DE65689F436A4D /* Date+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB4BE3109D23998090B67DB754A714 /* Date+JW.swift */; };
+		F1A31221E93BDD39A9CD0EF944E7C99C /* UIImage+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B173F31E7DC4ECE994420C5A36CE74 /* UIImage+JW.swift */; };
+		F3238D8738D7D69A8BFBC2D845B040E5 /* String+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DC7B437AECD8B135115B5FD1CFA919 /* String+JW.swift */; };
+		F37C76AD5016FC3D0C9DF8AEFFAAB941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8EFA8C448D5A2B3D3565E3D9F54635 /* Foundation.framework */; };
+		FBF826C3062D1243F9A71F10DAEF5002 /* UITableView+JW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304F7292C34721D700AAF929A84B86DF /* UITableView+JW.swift */; };
+		FF757226B6C9B8919904EAE31F92E590 /* JWViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128C46EE61EDBFBE3375255CB5B187D /* JWViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63A6BD14C453292A87B94258D4C97C73 /* PBXContainerItemProxy */ = {
+		2F47999C0836DD944E7D1AC4F83CA3E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E3F0EA585AAE8570BE2D08F5EA816E;
+			remoteInfo = JRSwizzle;
+		};
+		368CC1E1A5255848C1BE9FF58390E94C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48599CAAF1E1EDC304941E395F510D63;
+			remoteInfo = "UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock";
+		};
+		69B11B8E6A705261CDFEE8621B81FA92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85123277824E30824C48AB5A91A871F1;
+			remoteInfo = UINavigationControllerWithCompletionBlock;
+		};
+		87AD5C91281A935DE1BD513B7E531035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E3F0EA585AAE8570BE2D08F5EA816E;
+			remoteInfo = JRSwizzle;
+		};
+		89693034DA3755FAD3B0D9BE9877D0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85123277824E30824C48AB5A91A871F1;
+			remoteInfo = UINavigationControllerWithCompletionBlock;
+		};
+		E62C406D71BB17F9F7DCFCE4733CF541 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -79,88 +131,130 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C9CC581514CEA260F3DE44C36EE1FF /* Error+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Error+JW.swift"; sourceTree = "<group>"; };
-		035BDDF3678C17A0F3946D83FA1D3BF7 /* UIColor+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+JW.swift"; sourceTree = "<group>"; };
+		003C2E5290018295703939737F4B7B90 /* JRSwizzle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.xcconfig; sourceTree = "<group>"; };
+		00AB72EA4BEF18A07A7DAFE8A7B9190E /* UINavigationControllerWithCompletionBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UINavigationControllerWithCompletionBlock.framework; path = UINavigationControllerWithCompletionBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B717E33AADC8D76DCA567A71DF833 /* JRSwizzle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JRSwizzle-Info.plist"; sourceTree = "<group>"; };
+		0654910F2BB2A77721BD56D8D6B81512 /* Float+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Float+JW.swift"; sourceTree = "<group>"; };
+		0789B9C3FB71DE86AE357EEC6A9B9D54 /* NSMutableAttributedString+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+JW.swift"; sourceTree = "<group>"; };
 		093C0EFDE7883FA43E93A2BE4A684963 /* Pods-JWHelperKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWHelperKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0AC4ACD9C7F1010315B94459C435C68C /* UILabel+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+JW.swift"; sourceTree = "<group>"; };
-		0B06831FDED55CF7273C0D83D705A258 /* NSMutableAttributedString+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+JW.swift"; sourceTree = "<group>"; };
-		0D4793BAE1FE0E2C06B7B27C5D581663 /* JWHelperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWHelperKit.framework; path = JWHelperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F0DE3FAB6EFCBFE29BF03CCBF41A04C /* UILayout+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILayout+JW.swift"; sourceTree = "<group>"; };
-		16888FE833984191A56C273BBB45113A /* JWHelperKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWHelperKit.xcconfig; sourceTree = "<group>"; };
-		1DF112BFF88B44188BDC6C923683AC47 /* UICollectionViewFlowLayout+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionViewFlowLayout+JW.swift"; sourceTree = "<group>"; };
-		24E2033B652A62D4160C005B38EED595 /* UIViewController+Navigation+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation+JW.swift"; sourceTree = "<group>"; };
-		281C22403625608A5A24BF4B85AFFD35 /* JWHelperKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JWHelperKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		095348C0019783D380940DCB51C27D07 /* UINavigationControllerWithCompletionBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UINavigationControllerWithCompletionBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6647906168B02518F656DF429B6CF2 /* ResourceBundle-UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock-Info.plist"; sourceTree = "<group>"; };
+		0F3F49B9D2026A8539C97AD027E01E82 /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
+		12EF35BC80B6E36718E08216DDA95743 /* UIPanGestureRecognizer+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIPanGestureRecognizer+JW.swift"; sourceTree = "<group>"; };
+		15F903035C23918B112AAF6934D31270 /* BinaryFloatingPoint+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "BinaryFloatingPoint+JW.swift"; sourceTree = "<group>"; };
+		17CD65D7833C0E88F943926CBA206448 /* JWChooseImageMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JWChooseImageMode.swift; sourceTree = "<group>"; };
+		1A5DD1DA5E6DE760163A66060FF3D7A1 /* UIButton+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+JW.swift"; sourceTree = "<group>"; };
+		1C677D8C623473FCD4BED3B30EDD97C9 /* JMONavigationAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMONavigationAction.h; path = Pod/Classes/JMONavigationAction.h; sourceTree = "<group>"; };
+		1DC6F347444DCAB7FDDAE83A42D4E9D0 /* UILabel+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+JW.swift"; sourceTree = "<group>"; };
+		1F2A5B3FCF7D8AC840BD07D76BB6C00E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2128C46EE61EDBFBE3375255CB5B187D /* JWViewTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JWViewTableViewCell.swift; sourceTree = "<group>"; };
+		262A01502F0E4A29E917817E93318896 /* UINavigationControllerWithCompletionBlock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UINavigationControllerWithCompletionBlock-Info.plist"; sourceTree = "<group>"; };
+		2A4243FD241430FCB552F646A594B855 /* JWViewCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JWViewCollectionViewCell.swift; sourceTree = "<group>"; };
 		2B04D2EAFE778DC235827667B63947FC /* Pods-JWHelperKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWHelperKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		337743C0008AE46DDA5F814B46106479 /* BinaryFloatingPoint+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "BinaryFloatingPoint+JW.swift"; sourceTree = "<group>"; };
-		350ECACF7A82AFD0F205A4F019EA31CF /* Float+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Float+JW.swift"; sourceTree = "<group>"; };
+		2EA272E225D9769E31B389EF3A266941 /* MultiplePageable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultiplePageable.swift; sourceTree = "<group>"; };
+		304F7292C34721D700AAF929A84B86DF /* UITableView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+JW.swift"; sourceTree = "<group>"; };
+		30ED85F973A1538F335FA9037D8225E7 /* JMONavigationAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMONavigationAction.m; path = Pod/Classes/JMONavigationAction.m; sourceTree = "<group>"; };
+		31A661E5A37039AD4BC0EE52846070C3 /* UIViewController+DismissKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+DismissKeyboard.swift"; sourceTree = "<group>"; };
+		346D7446AD297364941DF26FB2425D56 /* UIDevice+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice+JW.swift"; sourceTree = "<group>"; };
+		35C6BE736E37BB817A01B451441A3BCB /* UINavigation+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigation+JW.swift"; path = "JWHelperKit/Classes/Navigation/UINavigation+JW.swift"; sourceTree = "<group>"; };
+		36ABB2683CA07D615F5B5D926016C07E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3A9961679CC8E30A2483B23B0DDC376E /* Pods-JWHelperKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWHelperKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3EA8D901634B1543CFD7D53648CF262B /* JWHelperKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWHelperKit-prefix.pch"; sourceTree = "<group>"; };
-		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B00209D9CA7E46626F2AF11A97730EE /* UINavigation+JW+Completion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigation+JW+Completion.swift"; path = "JWHelperKit/Classes/Navigation/UINavigation+JW+Completion.swift"; sourceTree = "<group>"; };
+		3C31B11DFE63A54C5D6262072AFD9063 /* UINavigationControllerWithCompletionBlock.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UINavigationControllerWithCompletionBlock.bundle; path = "UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DC7B437AECD8B135115B5FD1CFA919 /* String+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+JW.swift"; sourceTree = "<group>"; };
 		461585F56BFF89DCD470E8CE55139F37 /* Pods-JWHelperKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWHelperKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		4865AF1B42728E988F32A1283D2B2A88 /* JWNamespaceWrappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWNamespaceWrappable.swift; path = JWHelperKit/Classes/Base/JWNamespaceWrappable.swift; sourceTree = "<group>"; };
-		4A995B0EA9781C2F26578E94AEF9C2CB /* Pods_JWHelperKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWHelperKit_Tests.framework; path = "Pods-JWHelperKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		489641476F828A8BB0C21AB3F2B7E71A /* JWHelperKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWHelperKit.modulemap; sourceTree = "<group>"; };
+		49623C079CA29EC9D4CDD5F320F883D8 /* UIAlertController+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIAlertController+JW.swift"; sourceTree = "<group>"; };
 		4C14045F1D442F0E6D10E2A3A9648764 /* Pods-JWHelperKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWHelperKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5AB238A16F546F00A8AF9432E3C7F853 /* UIPanGestureRecognizer+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIPanGestureRecognizer+JW.swift"; sourceTree = "<group>"; };
-		5DC1605DBF8D4ED21969052BF48DAACB /* JWHelperKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWHelperKit-umbrella.h"; sourceTree = "<group>"; };
-		6AE16851C08C6B18CB35CEDDC960DBD5 /* AVAudioSession+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVAudioSession+JW.swift"; sourceTree = "<group>"; };
+		4C542B0519B8E3232D6066DB1FCB28E8 /* JRSwizzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JRSwizzle.modulemap; sourceTree = "<group>"; };
+		4E14826EAD07ADE4F4EF5C49AD78E9E6 /* UIViewController+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+JW.swift"; sourceTree = "<group>"; };
+		4F5B963D7FD9A4469381BD8D17451F7D /* UINavigationControllerWithCompletionBlock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UINavigationControllerWithCompletionBlock.xcconfig; sourceTree = "<group>"; };
+		504B60AAF242072543CEE060D08225CD /* Pods_JWHelperKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWHelperKit_Example.framework; path = "Pods-JWHelperKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C50764C74372695CACAD9F3D54C754 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JRSwizzle.framework; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5644DBFE81EEDF8C9925798763F2FB81 /* UIView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+JW.swift"; sourceTree = "<group>"; };
+		5C1C8C732DC5814C01201317AC9474A3 /* UISwitch+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISwitch+JW.swift"; sourceTree = "<group>"; };
+		5CA7274DEBEDDD8B95D18F9ABB94FCF0 /* JRSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle-dummy.m"; sourceTree = "<group>"; };
+		5EF79A560B29768B6F2858E82357A504 /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		5FC430FFCC3518E2C342A9D8C38FA0B2 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B7E077EF24F7D2768B4C334BF9F701 /* UIViewController+Navigation+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation+JW.swift"; sourceTree = "<group>"; };
+		60D993777636DB78F26CD528DF384223 /* UIScrollView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+JW.swift"; sourceTree = "<group>"; };
+		69E87EA1A72D0AB08435DDF39E3215AA /* JWHelperKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWHelperKit-dummy.m"; sourceTree = "<group>"; };
+		6B5581A6260B2B7B1FF5DC9A08D1F036 /* JWHelperKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWHelperKit.xcconfig; sourceTree = "<group>"; };
 		6BAFF3655BDD305E2D9D0251E446CAA4 /* Pods-JWHelperKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWHelperKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		7097CC01CC793380D95FE56B09DA8D54 /* Optional+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+JW.swift"; sourceTree = "<group>"; };
-		734DAD4D0AB34010ACEC54D44AD8F8E9 /* Bool+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bool+JW.swift"; sourceTree = "<group>"; };
-		75897626484A5006645C50ED5130ECA8 /* JWViewCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JWViewCollectionViewCell.swift; sourceTree = "<group>"; };
-		76BA26AEF3958340DE8B0CD317B1CEB3 /* JWHelperKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JWHelperKit-Info.plist"; sourceTree = "<group>"; };
-		787BF10B275688864C82B27EB3EB0DEF /* DataBaseTableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataBaseTableProtocol.swift; sourceTree = "<group>"; };
+		70073760472F7C77166F28E33B533198 /* UIView+JW+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+JW+Animation.swift"; sourceTree = "<group>"; };
+		750C7128EBF0FE851FA244B69969E084 /* UILayout+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILayout+JW.swift"; sourceTree = "<group>"; };
+		76E1467CCD88F7BB3C77BA1C91C2335B /* JWNamespaceWrappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWNamespaceWrappable.swift; path = JWHelperKit/Classes/Base/JWNamespaceWrappable.swift; sourceTree = "<group>"; };
+		7A9344CF34934CC3B76E1BB420821462 /* Pods_JWHelperKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWHelperKit_Tests.framework; path = "Pods-JWHelperKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B23A194023933094F48234BF741D6D7 /* Pods-JWHelperKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWHelperKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BFBA307C4A9D1451027CAA3B673E644 /* Pods-JWHelperKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWHelperKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7D2B75A26815EC3F57CA3ED526B4AB8D /* UIDevice+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice+JW.swift"; sourceTree = "<group>"; };
 		7D653AB8756D4898BBD730F71AC0978A /* Pods-JWHelperKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWHelperKit_Example.modulemap"; sourceTree = "<group>"; };
-		873BEA56D7978B0CA13B546410F7A728 /* UIAlertController+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIAlertController+JW.swift"; sourceTree = "<group>"; };
-		8F3D4EB6B2E64F2D36A6BCED40BA63AB /* UIViewController+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+JW.swift"; sourceTree = "<group>"; };
-		8F867D442F732BE621700D31698A3808 /* Dictionary+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+JW.swift"; sourceTree = "<group>"; };
+		7E8EFA8C448D5A2B3D3565E3D9F54635 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81FC8E48F9CF4CD2DED3B2D18D5A676D /* WebView+State+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "WebView+State+JW.swift"; sourceTree = "<group>"; };
+		8ADFCEB7DD4016425DEE37ACD6A2A57F /* JWHelperKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JWHelperKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		906D2479276AB3BA597A50B1B8A2ECA9 /* Pods-JWHelperKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWHelperKit_Example-Info.plist"; sourceTree = "<group>"; };
-		935C72D239CD84FE0F1E253A5E598D59 /* JWChainCallHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWChainCallHelper.swift; path = JWHelperKit/Classes/Base/JWChainCallHelper.swift; sourceTree = "<group>"; };
-		95C739AB5F285438DD61F24B0CE9113F /* UICollectionView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+JW.swift"; sourceTree = "<group>"; };
-		9628D83F6E64D25F1E411714BF6FA0C5 /* Int+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+JW.swift"; sourceTree = "<group>"; };
-		9732B2B52DEB6363FF7EFD772A0BB682 /* UITableView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+JW.swift"; sourceTree = "<group>"; };
-		98A07669BCA335EFB007DDDD239AD77D /* Date+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+JW.swift"; sourceTree = "<group>"; };
-		98CD268B18E627FFE1F0C28281514D94 /* UIView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+JW.swift"; sourceTree = "<group>"; };
-		995D5422F533BAB6689F4948F960C99E /* UIImage+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+JW.swift"; sourceTree = "<group>"; };
+		91EAC94290626DDA3A13C2CB6147FA23 /* UITextfield+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextfield+JW.swift"; sourceTree = "<group>"; };
+		9634F39B5FDEED09BD69EA9C402B3B1D /* JWHelperKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWHelperKit-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5E1ACE45A46D7BD033AE4CE7A96A716 /* MultiplePageable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultiplePageable.swift; sourceTree = "<group>"; };
-		A694DB54E509834B1073C4B15C75D4E9 /* UIView+JW+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+JW+Animation.swift"; sourceTree = "<group>"; };
-		A70F86D1D8F030D5240258FF090EDB23 /* UIViewController+DismissKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+DismissKeyboard.swift"; sourceTree = "<group>"; };
-		A87FB8EEE624698EA4E461C7C1B8EE0D /* JWViewTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JWViewTableViewCell.swift; sourceTree = "<group>"; };
-		A9D10156FB0CE853FB79E32436A01A44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AB449D7C8567F1D88D2B913B3C956D1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A3B325B514987BBBF740B7DAD5A75229 /* Optional+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+JW.swift"; sourceTree = "<group>"; };
+		A55DF994B9D382AEAB3223B2050EE5B1 /* JWHelperKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JWHelperKit-Info.plist"; sourceTree = "<group>"; };
+		A58AAEE55258020F2365A3F23BCE6D9A /* JWHelperKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWHelperKit-prefix.pch"; sourceTree = "<group>"; };
+		A6C0429426C84E0D3CB355DFD96E8585 /* UICollectionView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+JW.swift"; sourceTree = "<group>"; };
+		AB7E7CE26F5DA07AEAAA6E81261579B9 /* UINavigationControllerWithCompletionBlock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationControllerWithCompletionBlock-prefix.pch"; sourceTree = "<group>"; };
 		AD61CD625CC3DA4B1470B7F10DBE94A9 /* Pods-JWHelperKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWHelperKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B3633FD6C55C64478D9F5031B857F5D6 /* Number+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Number+JW.swift"; sourceTree = "<group>"; };
+		B15BB28B68C20A6BAB6F5459F1059F19 /* DataBaseTableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataBaseTableProtocol.swift; sourceTree = "<group>"; };
+		B3B173F31E7DC4ECE994420C5A36CE74 /* UIImage+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+JW.swift"; sourceTree = "<group>"; };
 		B4BC30FCB2FDD57FC06C3A8761A4049E /* Pods-JWHelperKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWHelperKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C13B8FE143E3BF37A6398AE2D70CDB3E /* UIFont+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+JW.swift"; sourceTree = "<group>"; };
+		B4F4E6B131FBBEB5DC0DADE14EC7DDF0 /* Bool+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bool+JW.swift"; sourceTree = "<group>"; };
+		B6A4CBF32CF6E5E529C7F874ADB4140F /* UINavigationController+CompletionBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+CompletionBlock.h"; path = "Pod/Classes/UINavigationController+CompletionBlock.h"; sourceTree = "<group>"; };
+		B6BFFC108DCB1330A0027483193352BE /* JWChainCallHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWChainCallHelper.swift; path = JWHelperKit/Classes/Base/JWChainCallHelper.swift; sourceTree = "<group>"; };
+		B6D382103F89E0DBB9C4773E250E8EE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C268CB90FFFB5B374686D2D43F766DBA /* Pods-JWHelperKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWHelperKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		C286739DF40F48B1E69D189217F89A00 /* Pods-JWHelperKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWHelperKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C51A7353F71DE076026CD3DDEF64F0E4 /* UINavigationControllerWithCompletionBlock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UINavigationControllerWithCompletionBlock.modulemap; sourceTree = "<group>"; };
+		C651FB6C390383C66F25BE807B41F219 /* UINavigationControllerWithCompletionBlock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationControllerWithCompletionBlock-dummy.m"; sourceTree = "<group>"; };
+		CD331CC8BEB4305F45EC00241B153356 /* UIColor+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+JW.swift"; sourceTree = "<group>"; };
 		D50232CCE3E429683DD60E583F3A086E /* Pods-JWHelperKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWHelperKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D6F5EA017716F692DEEB955E91C98501 /* UIStackView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+JW.swift"; sourceTree = "<group>"; };
-		DA8CA8F3A29A673001CC708AB865E4E3 /* UIButton+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+JW.swift"; sourceTree = "<group>"; };
-		DF848DE90979491BD5B985F56B2621EF /* JWChooseImageMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JWChooseImageMode.swift; sourceTree = "<group>"; };
-		E00C1777E0947D3755C780B9741D73F0 /* JWHelperKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWHelperKit.modulemap; sourceTree = "<group>"; };
-		E014D221FCCCCB68D7B3974E8AFB1867 /* WebView+State+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "WebView+State+JW.swift"; sourceTree = "<group>"; };
-		E6063F7967F4D0A0EC1C4011D382248E /* UIScrollView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+JW.swift"; sourceTree = "<group>"; };
-		E8C28B908325EBDA7686B356342ACE6B /* UISwitch+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISwitch+JW.swift"; sourceTree = "<group>"; };
-		E8EE63C03AD4CF219F93E1BC4DE89B68 /* String+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+JW.swift"; sourceTree = "<group>"; };
-		E9E2326DDB5A022BADED391684110639 /* Pods_JWHelperKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWHelperKit_Example.framework; path = "Pods-JWHelperKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D6D63A49B26B92A8E2D29228BAAD6C92 /* UINavigationControllerWithCompletionBlock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationControllerWithCompletionBlock-umbrella.h"; sourceTree = "<group>"; };
+		DD3D7F2E9E19EF7D83E3327D9BA63D89 /* UICollectionViewFlowLayout+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionViewFlowLayout+JW.swift"; sourceTree = "<group>"; };
+		E104592EC0420EC39F9EA18481DB8ADF /* AVAudioSession+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVAudioSession+JW.swift"; sourceTree = "<group>"; };
+		E4ABE9738E2123ECB63E00201ACF6B37 /* JWHelperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWHelperKit.framework; path = JWHelperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DAD61D5AEC4AC19803BF4986ED8009 /* JRSwizzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-umbrella.h"; sourceTree = "<group>"; };
+		E76B1295DF78EF367ADC9B2E12DE3138 /* Number+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Number+JW.swift"; sourceTree = "<group>"; };
+		E792A0CF842FD890C4B557DEB2CD9C07 /* Dictionary+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+JW.swift"; sourceTree = "<group>"; };
 		EE3A54B4E59C1268C2BF91F8D948BF86 /* Pods-JWHelperKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWHelperKit_Example-dummy.m"; sourceTree = "<group>"; };
 		EFD5FE8EBA7F4A88FDA1FC314C9CE3CA /* Pods-JWHelperKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWHelperKit_Tests.modulemap"; sourceTree = "<group>"; };
-		F66B918B105308605805DBB17A84F117 /* JWHelperKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWHelperKit-dummy.m"; sourceTree = "<group>"; };
-		FBC04E0FCC16214CBE31968E196920A5 /* Data+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+JW.swift"; sourceTree = "<group>"; };
-		FFAD4C94AAB18485EBD0A2AC2F1D72BF /* UITextfield+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextfield+JW.swift"; sourceTree = "<group>"; };
+		F029076EE0557BA2FC0DFC5591D25F97 /* UIFont+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+JW.swift"; sourceTree = "<group>"; };
+		F052658CF40F228A6920B214871DB313 /* UINavigationController+CompletionBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+CompletionBlock.m"; path = "Pod/Classes/UINavigationController+CompletionBlock.m"; sourceTree = "<group>"; };
+		F2297B8CFBEE5C2E3E20DEE7AC2BD451 /* Data+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+JW.swift"; sourceTree = "<group>"; };
+		F5698580CC29F263D578659169705DF8 /* UIStackView+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+JW.swift"; sourceTree = "<group>"; };
+		F5C212747E6C489192C156FACA6372C5 /* Int+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+JW.swift"; sourceTree = "<group>"; };
+		F7CB4BE3109D23998090B67DB754A714 /* Date+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+JW.swift"; sourceTree = "<group>"; };
+		FA10F174CCDD840BD9E46C5A00200ECC /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		FE2F51FEA72133C85B94246FD2FFFEA7 /* Error+JW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Error+JW.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37DE3D9B84461A88876A043250465E0E /* Frameworks */ = {
+		8E002E74D2F311039FF23DFF1F4CD02E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16B69E174378A294AAA9C12A5A4623EF /* Foundation.framework in Frameworks */,
+				1015A3AA7628913002854B06EF358603 /* Foundation.framework in Frameworks */,
+				662BD933B9AD61B5DA1255E516353120 /* JRSwizzle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9E8CC08EB0E20A0196791163CB0630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA272EBE6841DABEF6C14A5E4CE271E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A470C6EF074A8E6108C955F49D43B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,24 +266,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB2F7A2345EBABC0AEE47C2E2C3E9666 /* Frameworks */ = {
+		D1C2C19B6C1294E312CE39063426E0CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38F07AB1555774B1CD0FAF8B12F810D /* Foundation.framework in Frameworks */,
-				46C7F6BC66C5164335AEC5233B777C81 /* UIKit.framework in Frameworks */,
+				F37C76AD5016FC3D0C9DF8AEFFAAB941 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E2FE335C82FB440B3E3F0C073C939B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C7F077BFDC79604E2785A61E79BEA3 /* Foundation.framework in Frameworks */,
+				A70285AB2CFB94A8C05D53F0D3B551E7 /* UIKit.framework in Frameworks */,
+				AAB77B1A5A23F144021A117369D5B560 /* UINavigationControllerWithCompletionBlock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		1A2BB836AE5CB0C1EF932BF59E8ADAA4 /* UINavigationControllerWithCompletionBlock */ = {
 			isa = PBXGroup;
 			children = (
-				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+				1C677D8C623473FCD4BED3B30EDD97C9 /* JMONavigationAction.h */,
+				30ED85F973A1538F335FA9037D8225E7 /* JMONavigationAction.m */,
+				B6A4CBF32CF6E5E529C7F874ADB4140F /* UINavigationController+CompletionBlock.h */,
+				F052658CF40F228A6920B214871DB313 /* UINavigationController+CompletionBlock.m */,
+				3C6B979B1BB0320456831056BC55AAE6 /* Support Files */,
 			);
-			name = Frameworks;
+			name = UINavigationControllerWithCompletionBlock;
+			path = UINavigationControllerWithCompletionBlock;
+			sourceTree = "<group>";
+		};
+		1CE39C657338B18F2E16FF48E1359724 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				15F903035C23918B112AAF6934D31270 /* BinaryFloatingPoint+JW.swift */,
+				B4F4E6B131FBBEB5DC0DADE14EC7DDF0 /* Bool+JW.swift */,
+				F2297B8CFBEE5C2E3E20DEE7AC2BD451 /* Data+JW.swift */,
+				B15BB28B68C20A6BAB6F5459F1059F19 /* DataBaseTableProtocol.swift */,
+				F7CB4BE3109D23998090B67DB754A714 /* Date+JW.swift */,
+				E792A0CF842FD890C4B557DEB2CD9C07 /* Dictionary+JW.swift */,
+				FE2F51FEA72133C85B94246FD2FFFEA7 /* Error+JW.swift */,
+				0654910F2BB2A77721BD56D8D6B81512 /* Float+JW.swift */,
+				F5C212747E6C489192C156FACA6372C5 /* Int+JW.swift */,
+				2EA272E225D9769E31B389EF3A266941 /* MultiplePageable.swift */,
+				0789B9C3FB71DE86AE357EEC6A9B9D54 /* NSMutableAttributedString+JW.swift */,
+				E76B1295DF78EF367ADC9B2E12DE3138 /* Number+JW.swift */,
+				A3B325B514987BBBF740B7DAD5A75229 /* Optional+JW.swift */,
+				40DC7B437AECD8B135115B5FD1CFA919 /* String+JW.swift */,
+			);
+			name = Other;
+			path = JWHelperKit/Classes/Base/Other;
+			sourceTree = "<group>";
+		};
+		1E287CEF27647C225ECFADF079FD9380 /* UIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E104592EC0420EC39F9EA18481DB8ADF /* AVAudioSession+JW.swift */,
+				17CD65D7833C0E88F943926CBA206448 /* JWChooseImageMode.swift */,
+				2A4243FD241430FCB552F646A594B855 /* JWViewCollectionViewCell.swift */,
+				2128C46EE61EDBFBE3375255CB5B187D /* JWViewTableViewCell.swift */,
+				49623C079CA29EC9D4CDD5F320F883D8 /* UIAlertController+JW.swift */,
+				1A5DD1DA5E6DE760163A66060FF3D7A1 /* UIButton+JW.swift */,
+				A6C0429426C84E0D3CB355DFD96E8585 /* UICollectionView+JW.swift */,
+				DD3D7F2E9E19EF7D83E3327D9BA63D89 /* UICollectionViewFlowLayout+JW.swift */,
+				CD331CC8BEB4305F45EC00241B153356 /* UIColor+JW.swift */,
+				346D7446AD297364941DF26FB2425D56 /* UIDevice+JW.swift */,
+				F029076EE0557BA2FC0DFC5591D25F97 /* UIFont+JW.swift */,
+				B3B173F31E7DC4ECE994420C5A36CE74 /* UIImage+JW.swift */,
+				1DC6F347444DCAB7FDDAE83A42D4E9D0 /* UILabel+JW.swift */,
+				750C7128EBF0FE851FA244B69969E084 /* UILayout+JW.swift */,
+				12EF35BC80B6E36718E08216DDA95743 /* UIPanGestureRecognizer+JW.swift */,
+				60D993777636DB78F26CD528DF384223 /* UIScrollView+JW.swift */,
+				F5698580CC29F263D578659169705DF8 /* UIStackView+JW.swift */,
+				5C1C8C732DC5814C01201317AC9474A3 /* UISwitch+JW.swift */,
+				304F7292C34721D700AAF929A84B86DF /* UITableView+JW.swift */,
+				91EAC94290626DDA3A13C2CB6147FA23 /* UITextfield+JW.swift */,
+				5644DBFE81EEDF8C9925798763F2FB81 /* UIView+JW.swift */,
+				70073760472F7C77166F28E33B533198 /* UIView+JW+Animation.swift */,
+				31A661E5A37039AD4BC0EE52846070C3 /* UIViewController+DismissKeyboard.swift */,
+				4E14826EAD07ADE4F4EF5C49AD78E9E6 /* UIViewController+JW.swift */,
+				60B7E077EF24F7D2768B4C334BF9F701 /* UIViewController+Navigation+JW.swift */,
+				81FC8E48F9CF4CD2DED3B2D18D5A676D /* WebView+State+JW.swift */,
+			);
+			name = UIHelper;
+			path = JWHelperKit/Classes/Base/UIHelper;
 			sourceTree = "<group>";
 		};
 		24DE7CB3EDA7BFF1F52E2A50F270E14E /* Pods-JWHelperKit_Tests */ = {
@@ -208,12 +372,44 @@
 			path = "Target Support Files/Pods-JWHelperKit_Tests";
 			sourceTree = "<group>";
 		};
-		31074F4019D4CBA24FCB398E2AD4B7FD /* Pod */ = {
+		35973E7854F59C53258A76C12F0E6B1A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				281C22403625608A5A24BF4B85AFFD35 /* JWHelperKit.podspec */,
-				AB449D7C8567F1D88D2B913B3C956D1A /* LICENSE */,
-				A9D10156FB0CE853FB79E32436A01A44 /* README.md */,
+				D4DFFD7444442DB1FD47EF00CB5AB1A5 /* JWHelperKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3A53849D32B682A4FE34BB2D258C53EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E8EFA8C448D5A2B3D3565E3D9F54635 /* Foundation.framework */,
+				1F2A5B3FCF7D8AC840BD07D76BB6C00E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3C6B979B1BB0320456831056BC55AAE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B6647906168B02518F656DF429B6CF2 /* ResourceBundle-UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock-Info.plist */,
+				C51A7353F71DE076026CD3DDEF64F0E4 /* UINavigationControllerWithCompletionBlock.modulemap */,
+				4F5B963D7FD9A4469381BD8D17451F7D /* UINavigationControllerWithCompletionBlock.xcconfig */,
+				C651FB6C390383C66F25BE807B41F219 /* UINavigationControllerWithCompletionBlock-dummy.m */,
+				262A01502F0E4A29E917817E93318896 /* UINavigationControllerWithCompletionBlock-Info.plist */,
+				AB7E7CE26F5DA07AEAAA6E81261579B9 /* UINavigationControllerWithCompletionBlock-prefix.pch */,
+				D6D63A49B26B92A8E2D29228BAAD6C92 /* UINavigationControllerWithCompletionBlock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UINavigationControllerWithCompletionBlock";
+			sourceTree = "<group>";
+		};
+		421A6553B23FCB45E42A03B68A8B4AB2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8ADFCEB7DD4016425DEE37ACD6A2A57F /* JWHelperKit.podspec */,
+				B6D382103F89E0DBB9C4773E250E8EE0 /* LICENSE */,
+				36ABB2683CA07D615F5B5D926016C07E /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -235,79 +431,72 @@
 			path = "Target Support Files/Pods-JWHelperKit_Example";
 			sourceTree = "<group>";
 		};
-		BD10525288E71EC3EE12115223816A13 /* Base */ = {
+		74A77701862BAF790A7644791183E6CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				935C72D239CD84FE0F1E253A5E598D59 /* JWChainCallHelper.swift */,
-				4865AF1B42728E988F32A1283D2B2A88 /* JWNamespaceWrappable.swift */,
-				F0DB18FEF7AA94DAE1500FEFB5D3845F /* Other */,
-				C555AC7E747087A212FA4B359D48EE89 /* UIHelper */,
+				5FC430FFCC3518E2C342A9D8C38FA0B2 /* JRSwizzle.framework */,
+				095348C0019783D380940DCB51C27D07 /* UINavigationControllerWithCompletionBlock.framework */,
+				3A53849D32B682A4FE34BB2D258C53EF /* iOS */,
 			);
-			name = Base;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BFCB907BD3BA8AE24EE215CA40026A3E /* Development Pods */ = {
+		A43F81D9FAC35695BBFA6DE2EA72F6CB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C3C7C8F5692A46746D0B5153DCD98389 /* JWHelperKit */,
+				4C542B0519B8E3232D6066DB1FCB28E8 /* JRSwizzle.modulemap */,
+				003C2E5290018295703939737F4B7B90 /* JRSwizzle.xcconfig */,
+				5CA7274DEBEDDD8B95D18F9ABB94FCF0 /* JRSwizzle-dummy.m */,
+				044B717E33AADC8D76DCA567A71DF833 /* JRSwizzle-Info.plist */,
+				0F3F49B9D2026A8539C97AD027E01E82 /* JRSwizzle-prefix.pch */,
+				E4DAD61D5AEC4AC19803BF4986ED8009 /* JRSwizzle-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/JRSwizzle";
 			sourceTree = "<group>";
 		};
-		C3C7C8F5692A46746D0B5153DCD98389 /* JWHelperKit */ = {
+		B6994B095771C02586BEFAD6705B893E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD10525288E71EC3EE12115223816A13 /* Base */,
-				31074F4019D4CBA24FCB398E2AD4B7FD /* Pod */,
-				F19F9751069BB0FC58D3422BC8699E74 /* Support Files */,
+				EA5E2428332D1DDBF16FD5C1B42BFA59 /* JRSwizzle */,
+				1A2BB836AE5CB0C1EF932BF59E8ADAA4 /* UINavigationControllerWithCompletionBlock */,
 			);
-			name = JWHelperKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C555AC7E747087A212FA4B359D48EE89 /* UIHelper */ = {
-			isa = PBXGroup;
-			children = (
-				6AE16851C08C6B18CB35CEDDC960DBD5 /* AVAudioSession+JW.swift */,
-				DF848DE90979491BD5B985F56B2621EF /* JWChooseImageMode.swift */,
-				75897626484A5006645C50ED5130ECA8 /* JWViewCollectionViewCell.swift */,
-				A87FB8EEE624698EA4E461C7C1B8EE0D /* JWViewTableViewCell.swift */,
-				873BEA56D7978B0CA13B546410F7A728 /* UIAlertController+JW.swift */,
-				DA8CA8F3A29A673001CC708AB865E4E3 /* UIButton+JW.swift */,
-				95C739AB5F285438DD61F24B0CE9113F /* UICollectionView+JW.swift */,
-				1DF112BFF88B44188BDC6C923683AC47 /* UICollectionViewFlowLayout+JW.swift */,
-				035BDDF3678C17A0F3946D83FA1D3BF7 /* UIColor+JW.swift */,
-				7D2B75A26815EC3F57CA3ED526B4AB8D /* UIDevice+JW.swift */,
-				C13B8FE143E3BF37A6398AE2D70CDB3E /* UIFont+JW.swift */,
-				995D5422F533BAB6689F4948F960C99E /* UIImage+JW.swift */,
-				0AC4ACD9C7F1010315B94459C435C68C /* UILabel+JW.swift */,
-				0F0DE3FAB6EFCBFE29BF03CCBF41A04C /* UILayout+JW.swift */,
-				5AB238A16F546F00A8AF9432E3C7F853 /* UIPanGestureRecognizer+JW.swift */,
-				E6063F7967F4D0A0EC1C4011D382248E /* UIScrollView+JW.swift */,
-				D6F5EA017716F692DEEB955E91C98501 /* UIStackView+JW.swift */,
-				E8C28B908325EBDA7686B356342ACE6B /* UISwitch+JW.swift */,
-				9732B2B52DEB6363FF7EFD772A0BB682 /* UITableView+JW.swift */,
-				FFAD4C94AAB18485EBD0A2AC2F1D72BF /* UITextfield+JW.swift */,
-				98CD268B18E627FFE1F0C28281514D94 /* UIView+JW.swift */,
-				A694DB54E509834B1073C4B15C75D4E9 /* UIView+JW+Animation.swift */,
-				A70F86D1D8F030D5240258FF090EDB23 /* UIViewController+DismissKeyboard.swift */,
-				8F3D4EB6B2E64F2D36A6BCED40BA63AB /* UIViewController+JW.swift */,
-				24E2033B652A62D4160C005B38EED595 /* UIViewController+Navigation+JW.swift */,
-				E014D221FCCCCB68D7B3974E8AFB1867 /* WebView+State+JW.swift */,
-			);
-			name = UIHelper;
-			path = JWHelperKit/Classes/Base/UIHelper;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BFCB907BD3BA8AE24EE215CA40026A3E /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				FF562A6B9D8F89E18C1B519DAF219CE8 /* Products */,
+				35973E7854F59C53258A76C12F0E6B1A /* Development Pods */,
+				74A77701862BAF790A7644791183E6CF /* Frameworks */,
+				B6994B095771C02586BEFAD6705B893E /* Pods */,
+				EFB0FD2B1C0DD358ED3634811A865E4B /* Products */,
 				DE0EE01C12834AE1C9FCB77B0FCBEC8E /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D254D724A0EB8DA2C037AEDCD2441FB0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B6BFFC108DCB1330A0027483193352BE /* JWChainCallHelper.swift */,
+				76E1467CCD88F7BB3C77BA1C91C2335B /* JWNamespaceWrappable.swift */,
+				1CE39C657338B18F2E16FF48E1359724 /* Other */,
+				1E287CEF27647C225ECFADF079FD9380 /* UIHelper */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		D4DFFD7444442DB1FD47EF00CB5AB1A5 /* JWHelperKit */ = {
+			isa = PBXGroup;
+			children = (
+				D254D724A0EB8DA2C037AEDCD2441FB0 /* Base */,
+				E549BC267302AAF12BD7475BE4E696F7 /* Navigation */,
+				421A6553B23FCB45E42A03B68A8B4AB2 /* Pod */,
+				E715ABEC7D10C93D469717E9E33B11EF /* Support Files */,
+			);
+			name = JWHelperKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		DE0EE01C12834AE1C9FCB77B0FCBEC8E /* Targets Support Files */ = {
@@ -319,57 +508,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+		E549BC267302AAF12BD7475BE4E696F7 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
-				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+				35C6BE736E37BB817A01B451441A3BCB /* UINavigation+JW.swift */,
+				3B00209D9CA7E46626F2AF11A97730EE /* UINavigation+JW+Completion.swift */,
 			);
-			name = iOS;
+			name = Navigation;
 			sourceTree = "<group>";
 		};
-		F0DB18FEF7AA94DAE1500FEFB5D3845F /* Other */ = {
+		E715ABEC7D10C93D469717E9E33B11EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				337743C0008AE46DDA5F814B46106479 /* BinaryFloatingPoint+JW.swift */,
-				734DAD4D0AB34010ACEC54D44AD8F8E9 /* Bool+JW.swift */,
-				FBC04E0FCC16214CBE31968E196920A5 /* Data+JW.swift */,
-				787BF10B275688864C82B27EB3EB0DEF /* DataBaseTableProtocol.swift */,
-				98A07669BCA335EFB007DDDD239AD77D /* Date+JW.swift */,
-				8F867D442F732BE621700D31698A3808 /* Dictionary+JW.swift */,
-				01C9CC581514CEA260F3DE44C36EE1FF /* Error+JW.swift */,
-				350ECACF7A82AFD0F205A4F019EA31CF /* Float+JW.swift */,
-				9628D83F6E64D25F1E411714BF6FA0C5 /* Int+JW.swift */,
-				A5E1ACE45A46D7BD033AE4CE7A96A716 /* MultiplePageable.swift */,
-				0B06831FDED55CF7273C0D83D705A258 /* NSMutableAttributedString+JW.swift */,
-				B3633FD6C55C64478D9F5031B857F5D6 /* Number+JW.swift */,
-				7097CC01CC793380D95FE56B09DA8D54 /* Optional+JW.swift */,
-				E8EE63C03AD4CF219F93E1BC4DE89B68 /* String+JW.swift */,
-			);
-			name = Other;
-			path = JWHelperKit/Classes/Base/Other;
-			sourceTree = "<group>";
-		};
-		F19F9751069BB0FC58D3422BC8699E74 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E00C1777E0947D3755C780B9741D73F0 /* JWHelperKit.modulemap */,
-				16888FE833984191A56C273BBB45113A /* JWHelperKit.xcconfig */,
-				F66B918B105308605805DBB17A84F117 /* JWHelperKit-dummy.m */,
-				76BA26AEF3958340DE8B0CD317B1CEB3 /* JWHelperKit-Info.plist */,
-				3EA8D901634B1543CFD7D53648CF262B /* JWHelperKit-prefix.pch */,
-				5DC1605DBF8D4ED21969052BF48DAACB /* JWHelperKit-umbrella.h */,
+				489641476F828A8BB0C21AB3F2B7E71A /* JWHelperKit.modulemap */,
+				6B5581A6260B2B7B1FF5DC9A08D1F036 /* JWHelperKit.xcconfig */,
+				69E87EA1A72D0AB08435DDF39E3215AA /* JWHelperKit-dummy.m */,
+				A55DF994B9D382AEAB3223B2050EE5B1 /* JWHelperKit-Info.plist */,
+				A58AAEE55258020F2365A3F23BCE6D9A /* JWHelperKit-prefix.pch */,
+				9634F39B5FDEED09BD69EA9C402B3B1D /* JWHelperKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JWHelperKit";
 			sourceTree = "<group>";
 		};
-		FF562A6B9D8F89E18C1B519DAF219CE8 /* Products */ = {
+		EA5E2428332D1DDBF16FD5C1B42BFA59 /* JRSwizzle */ = {
 			isa = PBXGroup;
 			children = (
-				0D4793BAE1FE0E2C06B7B27C5D581663 /* JWHelperKit.framework */,
-				E9E2326DDB5A022BADED391684110639 /* Pods_JWHelperKit_Example.framework */,
-				4A995B0EA9781C2F26578E94AEF9C2CB /* Pods_JWHelperKit_Tests.framework */,
+				5EF79A560B29768B6F2858E82357A504 /* JRSwizzle.h */,
+				FA10F174CCDD840BD9E46C5A00200ECC /* JRSwizzle.m */,
+				A43F81D9FAC35695BBFA6DE2EA72F6CB /* Support Files */,
+			);
+			name = JRSwizzle;
+			path = JRSwizzle;
+			sourceTree = "<group>";
+		};
+		EFB0FD2B1C0DD358ED3634811A865E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C50764C74372695CACAD9F3D54C754 /* JRSwizzle.framework */,
+				E4ABE9738E2123ECB63E00201ACF6B37 /* JWHelperKit.framework */,
+				504B60AAF242072543CEE060D08225CD /* Pods_JWHelperKit_Example.framework */,
+				7A9344CF34934CC3B76E1BB420821462 /* Pods_JWHelperKit_Tests.framework */,
+				3C31B11DFE63A54C5D6262072AFD9063 /* UINavigationControllerWithCompletionBlock.bundle */,
+				00AB72EA4BEF18A07A7DAFE8A7B9190E /* UINavigationControllerWithCompletionBlock.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -377,11 +558,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		59939F3E456B689FAF80C95B13040333 /* Headers */ = {
+		27802A61F7C8D568C998A88EFD3C6EF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB70D975FD2CFE1C44AF272C39020BD /* Pods-JWHelperKit_Example-umbrella.h in Headers */,
+				37A96FF23B418055E44F66CF591573D6 /* Pods-JWHelperKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8467598AC9BE4A7FE51155D3B1851EA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C433F8C0714DD8FACF897FD88EE1D4 /* JWHelperKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915C6F332B79867F820D10464D773087 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DDE6354144769ECE0063C1C2BB59B9 /* JRSwizzle-umbrella.h in Headers */,
+				C1C4E5D6FB490F76FB5DC88999F6CA64 /* JRSwizzle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,11 +591,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7D86C296F9F3176E05D5906C4407FFE /* Headers */ = {
+		F94CD0CF01FDEC99779274C40E2218F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EA16FF7588E61B34518741BF6468CF6 /* JWHelperKit-umbrella.h in Headers */,
+				BF7C4852AF2383D49A291F7831754AE5 /* JMONavigationAction.h in Headers */,
+				D843B9FE35D652A1A494EFC1ECC1D2E2 /* UINavigationController+CompletionBlock.h in Headers */,
+				737F1A275258357DEAA80DF5EB881691 /* UINavigationControllerWithCompletionBlock-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,44 +620,102 @@
 			);
 			name = "Pods-JWHelperKit_Tests";
 			productName = "Pods-JWHelperKit_Tests";
-			productReference = 4A995B0EA9781C2F26578E94AEF9C2CB /* Pods_JWHelperKit_Tests.framework */;
+			productReference = 7A9344CF34934CC3B76E1BB420821462 /* Pods_JWHelperKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		376395B05E709F4FE7A348D4718FF0EA /* Pods-JWHelperKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 375D23DFC388B0CC13FC734A86E7FC6F /* Build configuration list for PBXNativeTarget "Pods-JWHelperKit_Example" */;
+			buildConfigurationList = 34B4602B46554134E7892E92284D475E /* Build configuration list for PBXNativeTarget "Pods-JWHelperKit_Example" */;
 			buildPhases = (
-				59939F3E456B689FAF80C95B13040333 /* Headers */,
-				A625D7DC5E60BE2F25A4D46FA379FCEF /* Sources */,
-				37DE3D9B84461A88876A043250465E0E /* Frameworks */,
-				6D2F76DEF29DBE4A8CD35979295FD22E /* Resources */,
+				27802A61F7C8D568C998A88EFD3C6EF5 /* Headers */,
+				89B6784FEA5383257A2641CBB028A1C5 /* Sources */,
+				9D9E8CC08EB0E20A0196791163CB0630 /* Frameworks */,
+				4B437CE54C2BA6856BDF46EA62E03C16 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F6D7D531DA9C36A0CEBDD21735D3D572 /* PBXTargetDependency */,
+				F7486E8D6331C050F11DEE33687FF397 /* PBXTargetDependency */,
+				2795576D46DBF30E64E1C767B0631A7B /* PBXTargetDependency */,
+				1AD1BDE52A79771948D4AC16A1B4BE08 /* PBXTargetDependency */,
 			);
 			name = "Pods-JWHelperKit_Example";
 			productName = "Pods-JWHelperKit_Example";
-			productReference = E9E2326DDB5A022BADED391684110639 /* Pods_JWHelperKit_Example.framework */;
+			productReference = 504B60AAF242072543CEE060D08225CD /* Pods_JWHelperKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		727D90DF0C8A76BBDB06A722406F7CAF /* JWHelperKit */ = {
+		48599CAAF1E1EDC304941E395F510D63 /* UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F4B83D414DF0B87EAF3B9577B144236 /* Build configuration list for PBXNativeTarget "JWHelperKit" */;
+			buildConfigurationList = BA0C77988623FF318E058E0589D5F06D /* Build configuration list for PBXNativeTarget "UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock" */;
 			buildPhases = (
-				B7D86C296F9F3176E05D5906C4407FFE /* Headers */,
-				856EA3D1837811740900A2A6E412F8DF /* Sources */,
-				FB2F7A2345EBABC0AEE47C2E2C3E9666 /* Frameworks */,
-				E4ACB4E42713C8805F02739E884B0A67 /* Resources */,
+				D15E4CF27625227D28395424BF1C2B4F /* Sources */,
+				B0A470C6EF074A8E6108C955F49D43B8 /* Frameworks */,
+				9287D8A623C33B700AB2CF6AEB1F9FB7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock";
+			productName = "UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock";
+			productReference = 3C31B11DFE63A54C5D6262072AFD9063 /* UINavigationControllerWithCompletionBlock.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		727D90DF0C8A76BBDB06A722406F7CAF /* JWHelperKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15650E9972AB626A126B805D27B9D62 /* Build configuration list for PBXNativeTarget "JWHelperKit" */;
+			buildPhases = (
+				8467598AC9BE4A7FE51155D3B1851EA1 /* Headers */,
+				908D61E3DE1E13D5A1179CA31D57A1F8 /* Sources */,
+				E8E2FE335C82FB440B3E3F0C073C939B /* Frameworks */,
+				8928ACA69927D81F04B2A5D0D6F7F415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0367E75AFF22E04525DCF1CF2AB26A4D /* PBXTargetDependency */,
+			);
 			name = JWHelperKit;
 			productName = JWHelperKit;
-			productReference = 0D4793BAE1FE0E2C06B7B27C5D581663 /* JWHelperKit.framework */;
+			productReference = E4ABE9738E2123ECB63E00201ACF6B37 /* JWHelperKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85123277824E30824C48AB5A91A871F1 /* UINavigationControllerWithCompletionBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75C47DFF35A19366DF61FF55D6367BB /* Build configuration list for PBXNativeTarget "UINavigationControllerWithCompletionBlock" */;
+			buildPhases = (
+				F94CD0CF01FDEC99779274C40E2218F0 /* Headers */,
+				1B7BF8DE71DD61BFFD1FBB72502CEB91 /* Sources */,
+				8E002E74D2F311039FF23DFF1F4CD02E /* Frameworks */,
+				3BC5BB27F855E342D668568B3BF2F021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F8F8A264034AE3C420021B58AB77E70 /* PBXTargetDependency */,
+				39E7E7C42447EC555B3F71544A77B2C0 /* PBXTargetDependency */,
+			);
+			name = UINavigationControllerWithCompletionBlock;
+			productName = UINavigationControllerWithCompletionBlock;
+			productReference = 00AB72EA4BEF18A07A7DAFE8A7B9190E /* UINavigationControllerWithCompletionBlock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3E3F0EA585AAE8570BE2D08F5EA816E /* JRSwizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119E07FE4E713810D506756F27533277 /* Build configuration list for PBXNativeTarget "JRSwizzle" */;
+			buildPhases = (
+				915C6F332B79867F820D10464D773087 /* Headers */,
+				369B24B8CC7F2A61B21B4DC2496F9B79 /* Sources */,
+				D1C2C19B6C1294E312CE39063426E0CA /* Frameworks */,
+				4993D85058CB4CD3F3904B4AD301C969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRSwizzle;
+			productName = JRSwizzle;
+			productReference = 52C50764C74372695CACAD9F3D54C754 /* JRSwizzle.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -477,19 +735,37 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FF562A6B9D8F89E18C1B519DAF219CE8 /* Products */;
+			productRefGroup = EFB0FD2B1C0DD358ED3634811A865E4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A3E3F0EA585AAE8570BE2D08F5EA816E /* JRSwizzle */,
 				727D90DF0C8A76BBDB06A722406F7CAF /* JWHelperKit */,
 				376395B05E709F4FE7A348D4718FF0EA /* Pods-JWHelperKit_Example */,
 				0E3B83333C3EB3CB9E19012ED55EA219 /* Pods-JWHelperKit_Tests */,
+				85123277824E30824C48AB5A91A871F1 /* UINavigationControllerWithCompletionBlock */,
+				48599CAAF1E1EDC304941E395F510D63 /* UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6D2F76DEF29DBE4A8CD35979295FD22E /* Resources */ = {
+		3BC5BB27F855E342D668568B3BF2F021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4285786A6D4AC95EDAC52198F105012F /* UINavigationControllerWithCompletionBlock.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993D85058CB4CD3F3904B4AD301C969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B437CE54C2BA6856BDF46EA62E03C16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -503,7 +779,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4ACB4E42713C8805F02739E884B0A67 /* Resources */ = {
+		8928ACA69927D81F04B2A5D0D6F7F415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9287D8A623C33B700AB2CF6AEB1F9FB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,6 +796,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B7BF8DE71DD61BFFD1FBB72502CEB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7E4B7A0523D787CD1420C718388405 /* JMONavigationAction.m in Sources */,
+				BF5864F7063AD6422159352F05430437 /* UINavigationController+CompletionBlock.m in Sources */,
+				48769F0AA2A5E4294C50E8981137186D /* UINavigationControllerWithCompletionBlock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369B24B8CC7F2A61B21B4DC2496F9B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8CB029E7F3AE007A8C9FF7E7FF9100 /* JRSwizzle-dummy.m in Sources */,
+				D2B7E1637A0A7F5DCC5C32BDFCB3764A /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45C9FE3C396AC5C6EFC920806932A5B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,78 +823,117 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		856EA3D1837811740900A2A6E412F8DF /* Sources */ = {
+		89B6784FEA5383257A2641CBB028A1C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				735DBB484072C70E93E575F57BD6343C /* AVAudioSession+JW.swift in Sources */,
-				5360AF283E61AC19A3E4B5E442BDE808 /* BinaryFloatingPoint+JW.swift in Sources */,
-				0738F44BFF365C232589065CB4449E3F /* Bool+JW.swift in Sources */,
-				64ABE0FC767199FAE6B6C942E97D3189 /* Data+JW.swift in Sources */,
-				91896B755953D5293AC767906BF53AEE /* DataBaseTableProtocol.swift in Sources */,
-				260E2DF6DE3FC85B58BA8B9AAB5B6721 /* Date+JW.swift in Sources */,
-				1F315858F5FF82CE1DB9906D9BAF0E95 /* Dictionary+JW.swift in Sources */,
-				99B705037F14DB507869BC345EBF8326 /* Error+JW.swift in Sources */,
-				8E09399729B87CBFF8DA054DCDABB476 /* Float+JW.swift in Sources */,
-				A6FEE25461AB8E9C554C1809FF592555 /* Int+JW.swift in Sources */,
-				9E5DB036E55D3B69964A64A212A41178 /* JWChainCallHelper.swift in Sources */,
-				254FD775AD02C128374E38164683C78D /* JWChooseImageMode.swift in Sources */,
-				A641A4759032618FAF72885D133942B1 /* JWHelperKit-dummy.m in Sources */,
-				62E3A53DA14783F64CD662BD1ADCC56B /* JWNamespaceWrappable.swift in Sources */,
-				09FBD69C744645750A69C1DF52723865 /* JWViewCollectionViewCell.swift in Sources */,
-				FFFF1715EE76ACB45CD3000C5460F10F /* JWViewTableViewCell.swift in Sources */,
-				FB26D6ACA0B29D8BB506EC1634F0A209 /* MultiplePageable.swift in Sources */,
-				2BB2E5685E24B3B10344E13D00649D61 /* NSMutableAttributedString+JW.swift in Sources */,
-				882EFD93B28CCF49865A9E59DCBF3E7B /* Number+JW.swift in Sources */,
-				C0D07A28BFBC7DCDBBB7C09722DC0FDD /* Optional+JW.swift in Sources */,
-				26C2962E756700F7C59B035BEA85FD45 /* String+JW.swift in Sources */,
-				57CE0E3386CB00F146FB6CEF91B95D7B /* UIAlertController+JW.swift in Sources */,
-				4F4F38D33A32C7E7FE011E7A98361872 /* UIButton+JW.swift in Sources */,
-				311975915AB5D25E3F6A9C88E2632D0B /* UICollectionView+JW.swift in Sources */,
-				5DD0E6E95F24022280884F7D6D6654A0 /* UICollectionViewFlowLayout+JW.swift in Sources */,
-				28441583FA80001B7C25A364E96D8987 /* UIColor+JW.swift in Sources */,
-				BE703BF25EEC916B08CB02A28882170F /* UIDevice+JW.swift in Sources */,
-				B4DF237F6E9FEC277012F639EF272C10 /* UIFont+JW.swift in Sources */,
-				F229F63649667C7DD6F0A71A1591AF17 /* UIImage+JW.swift in Sources */,
-				F1B7AC6C9C24D4166B7FB46E110357F4 /* UILabel+JW.swift in Sources */,
-				F3F174C986FD20E8269CBD343A3FD973 /* UILayout+JW.swift in Sources */,
-				CEF3A2E3AD51257C1CA065064E517A17 /* UIPanGestureRecognizer+JW.swift in Sources */,
-				1D1A25DEBE19BCDF97CC1DE3216E466C /* UIScrollView+JW.swift in Sources */,
-				52DE07A77346887F764ED358B1B501A2 /* UIStackView+JW.swift in Sources */,
-				D554C76CEE3DF02700AA6BB507A90B40 /* UISwitch+JW.swift in Sources */,
-				39366FFEED9172A24C2661DC80589553 /* UITableView+JW.swift in Sources */,
-				84E2EAA242DB2C925B68A782B8FEACC2 /* UITextfield+JW.swift in Sources */,
-				25C5FADEA4506BA490E1411DDDB839EC /* UIView+JW+Animation.swift in Sources */,
-				12374F4D7B81EC9486F91A53A6A141B8 /* UIView+JW.swift in Sources */,
-				C04C35D2AEB62C6E1EBFCE5AB957E757 /* UIViewController+DismissKeyboard.swift in Sources */,
-				6CC9DC7558FA35204301D72C88A22D44 /* UIViewController+JW.swift in Sources */,
-				11C0987A97741F11DD8BA2B5B497F8A9 /* UIViewController+Navigation+JW.swift in Sources */,
-				8EF7A42F461B6ACC4FA480E146DCB919 /* WebView+State+JW.swift in Sources */,
+				472017F67532999C10C27EF26F8C060C /* Pods-JWHelperKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A625D7DC5E60BE2F25A4D46FA379FCEF /* Sources */ = {
+		908D61E3DE1E13D5A1179CA31D57A1F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BDF0F4C60E8DC5C93087DDF19CFFAA /* Pods-JWHelperKit_Example-dummy.m in Sources */,
+				9101086A5ED6AA726D37AA011B2A630E /* AVAudioSession+JW.swift in Sources */,
+				80EC3F632344FBCE37502DD8C5A77CB1 /* BinaryFloatingPoint+JW.swift in Sources */,
+				5AAE3540B1DD26421616808B71643B57 /* Bool+JW.swift in Sources */,
+				DB2DD77D4E96290FCE59C4D04F887F80 /* Data+JW.swift in Sources */,
+				9FD9FE81148F2973203C74ACA1FBD2E3 /* DataBaseTableProtocol.swift in Sources */,
+				E378799BD9A2A3BD09DE65689F436A4D /* Date+JW.swift in Sources */,
+				B197C9B03C09A5C10831AE3485A3C396 /* Dictionary+JW.swift in Sources */,
+				D8D21CBA450F56AB8A7847AB24DAC210 /* Error+JW.swift in Sources */,
+				AFCFAD4A8DF17FC6D60A95F441701C42 /* Float+JW.swift in Sources */,
+				224C0255E27729BB6537D5F4EB02A737 /* Int+JW.swift in Sources */,
+				941B5C76684ED15B2D5A50D9B32864C9 /* JWChainCallHelper.swift in Sources */,
+				4001E90EAB54EDD38C07D45C26FB8058 /* JWChooseImageMode.swift in Sources */,
+				3984F38B7AC1070DE06F324AEA36F073 /* JWHelperKit-dummy.m in Sources */,
+				0D6C97D20E773ECE893B2C8F7324C9CC /* JWNamespaceWrappable.swift in Sources */,
+				D2D554A3DE9CA7F661CDACE8B9012B52 /* JWViewCollectionViewCell.swift in Sources */,
+				FF757226B6C9B8919904EAE31F92E590 /* JWViewTableViewCell.swift in Sources */,
+				A4E188E11062DB240BABAFE0A69B8116 /* MultiplePageable.swift in Sources */,
+				5EB265DA3F421F5BDCC06A131AB3E2E6 /* NSMutableAttributedString+JW.swift in Sources */,
+				39370B6A8A9D50A4B984965B4940AB5C /* Number+JW.swift in Sources */,
+				43F963685BA81838C0123BCC37491BFC /* Optional+JW.swift in Sources */,
+				F3238D8738D7D69A8BFBC2D845B040E5 /* String+JW.swift in Sources */,
+				8CA518FEC4F1F818068E59F503D81BA3 /* UIAlertController+JW.swift in Sources */,
+				3BE4DEF2D76AABD6EC26FF7C0711C406 /* UIButton+JW.swift in Sources */,
+				115A1A6B2440D817440F512857B804EE /* UICollectionView+JW.swift in Sources */,
+				D309002779BD4FC7FF6EB45413181E8F /* UICollectionViewFlowLayout+JW.swift in Sources */,
+				3ACD38E41B0998176F592C267ABF35B4 /* UIColor+JW.swift in Sources */,
+				804D7B17C111ADA251C807D0BDDF22B8 /* UIDevice+JW.swift in Sources */,
+				1F56C5B11855D805CAA6A054DDE18C0A /* UIFont+JW.swift in Sources */,
+				F1A31221E93BDD39A9CD0EF944E7C99C /* UIImage+JW.swift in Sources */,
+				CB044E3AD8425E4BDBB589460755EFE0 /* UILabel+JW.swift in Sources */,
+				06DD245DB28823846D489FF0DD3740E5 /* UILayout+JW.swift in Sources */,
+				DF024E55780C4509B0F73B23584EEE95 /* UINavigation+JW+Completion.swift in Sources */,
+				0064737B5C5F9B050869342376D400AF /* UINavigation+JW.swift in Sources */,
+				195C49AA07491238C71201706B167ADC /* UIPanGestureRecognizer+JW.swift in Sources */,
+				C0770A1B94328062720A052778E52DA0 /* UIScrollView+JW.swift in Sources */,
+				10862D10A8E71B8FD1DC174C19319684 /* UIStackView+JW.swift in Sources */,
+				8023424E337297C0083C64313F5CCB93 /* UISwitch+JW.swift in Sources */,
+				FBF826C3062D1243F9A71F10DAEF5002 /* UITableView+JW.swift in Sources */,
+				49EF38EC52FA3C636ED57584FD1A5918 /* UITextfield+JW.swift in Sources */,
+				0B8A646BF26BFB1410A565C347887364 /* UIView+JW+Animation.swift in Sources */,
+				BA84EA81A65656421A54AC2940ED5D03 /* UIView+JW.swift in Sources */,
+				373CE5BF71D099F6EBCCDEED3E76C9A6 /* UIViewController+DismissKeyboard.swift in Sources */,
+				2E3F00116D4876BFCE2A3FFB6364F81F /* UIViewController+JW.swift in Sources */,
+				CDAD5456958C692691A0816A3FEB022E /* UIViewController+Navigation+JW.swift in Sources */,
+				954380A25B354060E932C8B09EE0B642 /* WebView+State+JW.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15E4CF27625227D28395424BF1C2B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0367E75AFF22E04525DCF1CF2AB26A4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UINavigationControllerWithCompletionBlock;
+			target = 85123277824E30824C48AB5A91A871F1 /* UINavigationControllerWithCompletionBlock */;
+			targetProxy = 69B11B8E6A705261CDFEE8621B81FA92 /* PBXContainerItemProxy */;
+		};
+		1AD1BDE52A79771948D4AC16A1B4BE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UINavigationControllerWithCompletionBlock;
+			target = 85123277824E30824C48AB5A91A871F1 /* UINavigationControllerWithCompletionBlock */;
+			targetProxy = 89693034DA3755FAD3B0D9BE9877D0ED /* PBXContainerItemProxy */;
+		};
+		1F8F8A264034AE3C420021B58AB77E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRSwizzle;
+			target = A3E3F0EA585AAE8570BE2D08F5EA816E /* JRSwizzle */;
+			targetProxy = 87AD5C91281A935DE1BD513B7E531035 /* PBXContainerItemProxy */;
+		};
+		2795576D46DBF30E64E1C767B0631A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWHelperKit;
+			target = 727D90DF0C8A76BBDB06A722406F7CAF /* JWHelperKit */;
+			targetProxy = E62C406D71BB17F9F7DCFCE4733CF541 /* PBXContainerItemProxy */;
+		};
+		39E7E7C42447EC555B3F71544A77B2C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock";
+			target = 48599CAAF1E1EDC304941E395F510D63 /* UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock */;
+			targetProxy = 368CC1E1A5255848C1BE9FF58390E94C /* PBXContainerItemProxy */;
+		};
 		99E5D2F9BCBFC90F40A528816A5CA1D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JWHelperKit_Example";
 			target = 376395B05E709F4FE7A348D4718FF0EA /* Pods-JWHelperKit_Example */;
 			targetProxy = F56F42A3605E4D2426C5057052FA79C8 /* PBXContainerItemProxy */;
 		};
-		F6D7D531DA9C36A0CEBDD21735D3D572 /* PBXTargetDependency */ = {
+		F7486E8D6331C050F11DEE33687FF397 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JWHelperKit;
-			target = 727D90DF0C8A76BBDB06A722406F7CAF /* JWHelperKit */;
-			targetProxy = 63A6BD14C453292A87B94258D4C97C73 /* PBXContainerItemProxy */;
+			name = JRSwizzle;
+			target = A3E3F0EA585AAE8570BE2D08F5EA816E /* JRSwizzle */;
+			targetProxy = 2F47999C0836DD944E7D1AC4F83CA3E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -695,9 +1036,43 @@
 			};
 			name = Debug;
 		};
-		0F8DE8F1C36A7B34433FB7653E8E414C /* Release */ = {
+		1CCC95CE6FEC2B142AE2F80814FE71B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16888FE833984191A56C273BBB45113A /* JWHelperKit.xcconfig */;
+			baseConfigurationReference = D50232CCE3E429683DD60E583F3A086E /* Pods-JWHelperKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWHelperKit_Example/Pods-JWHelperKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWHelperKit_Example/Pods-JWHelperKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F5E1DA0CD5C252B7A74C54053C170E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003C2E5290018295703939737F4B7B90 /* JRSwizzle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -708,14 +1083,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JWHelperKit/JWHelperKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JWHelperKit/JWHelperKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRSwizzle/JRSwizzle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JWHelperKit/JWHelperKit.modulemap";
-				PRODUCT_MODULE_NAME = JWHelperKit;
-				PRODUCT_NAME = JWHelperKit;
+				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
+				PRODUCT_MODULE_NAME = JRSwizzle;
+				PRODUCT_NAME = JRSwizzle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -727,9 +1102,9 @@
 			};
 			name = Release;
 		};
-		67588B80A34394335E3836CCBFE83E1E /* Debug */ = {
+		67113CAB44FEE10657423D5F1863BE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16888FE833984191A56C273BBB45113A /* JWHelperKit.xcconfig */;
+			baseConfigurationReference = 003C2E5290018295703939737F4B7B90 /* JRSwizzle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -740,14 +1115,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JWHelperKit/JWHelperKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JWHelperKit/JWHelperKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRSwizzle/JRSwizzle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JWHelperKit/JWHelperKit.modulemap";
-				PRODUCT_MODULE_NAME = JWHelperKit;
-				PRODUCT_NAME = JWHelperKit;
+				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
+				PRODUCT_MODULE_NAME = JRSwizzle;
+				PRODUCT_NAME = JRSwizzle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -755,6 +1130,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94922FC058C55A14D2E2F5A502125D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5B963D7FD9A4469381BD8D17451F7D /* UINavigationControllerWithCompletionBlock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UINavigationControllerWithCompletionBlock";
+				INFOPLIST_FILE = "Target Support Files/UINavigationControllerWithCompletionBlock/ResourceBundle-UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UINavigationControllerWithCompletionBlock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -818,7 +1209,7 @@
 			};
 			name = Release;
 		};
-		B21A3D4E79960BC0E10983506B011677 /* Debug */ = {
+		A5B5C253DF05429733F30CBD66674A7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD61CD625CC3DA4B1470B7F10DBE94A9 /* Pods-JWHelperKit_Example.debug.xcconfig */;
 			buildSettings = {
@@ -884,11 +1275,10 @@
 			};
 			name = Debug;
 		};
-		F71A339F9DFE67E449575FD6B1D77C6C /* Release */ = {
+		CB84289983DE1848F3366DF51A2C6034 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D50232CCE3E429683DD60E583F3A086E /* Pods-JWHelperKit_Example.release.xcconfig */;
+			baseConfigurationReference = 4F5B963D7FD9A4469381BD8D17451F7D /* UINavigationControllerWithCompletionBlock.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -898,19 +1288,128 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JWHelperKit_Example/Pods-JWHelperKit_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UINavigationControllerWithCompletionBlock/UINavigationControllerWithCompletionBlock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UINavigationControllerWithCompletionBlock/UINavigationControllerWithCompletionBlock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UINavigationControllerWithCompletionBlock/UINavigationControllerWithCompletionBlock.modulemap";
+				PRODUCT_MODULE_NAME = UINavigationControllerWithCompletionBlock;
+				PRODUCT_NAME = UINavigationControllerWithCompletionBlock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBE75D01FC3E2E4C7ABAE141195645BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5B963D7FD9A4469381BD8D17451F7D /* UINavigationControllerWithCompletionBlock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UINavigationControllerWithCompletionBlock";
+				INFOPLIST_FILE = "Target Support Files/UINavigationControllerWithCompletionBlock/ResourceBundle-UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UINavigationControllerWithCompletionBlock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FAB8725B340E84945C924BE2AF86CA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5581A6260B2B7B1FF5DC9A08D1F036 /* JWHelperKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWHelperKit/JWHelperKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWHelperKit/JWHelperKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JWHelperKit_Example/Pods-JWHelperKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/JWHelperKit/JWHelperKit.modulemap";
+				PRODUCT_MODULE_NAME = JWHelperKit;
+				PRODUCT_NAME = JWHelperKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB792D20595BF1EA7905B9119A8ACCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5581A6260B2B7B1FF5DC9A08D1F036 /* JWHelperKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWHelperKit/JWHelperKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWHelperKit/JWHelperKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JWHelperKit/JWHelperKit.modulemap";
+				PRODUCT_MODULE_NAME = JWHelperKit;
+				PRODUCT_NAME = JWHelperKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBCF042FBBC6BD4B37050C6F3956261D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5B963D7FD9A4469381BD8D17451F7D /* UINavigationControllerWithCompletionBlock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UINavigationControllerWithCompletionBlock/UINavigationControllerWithCompletionBlock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UINavigationControllerWithCompletionBlock/UINavigationControllerWithCompletionBlock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UINavigationControllerWithCompletionBlock/UINavigationControllerWithCompletionBlock.modulemap";
+				PRODUCT_MODULE_NAME = UINavigationControllerWithCompletionBlock;
+				PRODUCT_NAME = UINavigationControllerWithCompletionBlock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -921,11 +1420,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		375D23DFC388B0CC13FC734A86E7FC6F /* Build configuration list for PBXNativeTarget "Pods-JWHelperKit_Example" */ = {
+		119E07FE4E713810D506756F27533277 /* Build configuration list for PBXNativeTarget "JRSwizzle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B21A3D4E79960BC0E10983506B011677 /* Debug */,
-				F71A339F9DFE67E449575FD6B1D77C6C /* Release */,
+				67113CAB44FEE10657423D5F1863BE2C /* Debug */,
+				1F5E1DA0CD5C252B7A74C54053C170E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B4602B46554134E7892E92284D475E /* Build configuration list for PBXNativeTarget "Pods-JWHelperKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B5C253DF05429733F30CBD66674A7B /* Debug */,
+				1CCC95CE6FEC2B142AE2F80814FE71B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -939,11 +1447,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F4B83D414DF0B87EAF3B9577B144236 /* Build configuration list for PBXNativeTarget "JWHelperKit" */ = {
+		BA0C77988623FF318E058E0589D5F06D /* Build configuration list for PBXNativeTarget "UINavigationControllerWithCompletionBlock-UINavigationControllerWithCompletionBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67588B80A34394335E3836CCBFE83E1E /* Debug */,
-				0F8DE8F1C36A7B34433FB7653E8E414C /* Release */,
+				94922FC058C55A14D2E2F5A502125D83 /* Debug */,
+				DBE75D01FC3E2E4C7ABAE141195645BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15650E9972AB626A126B805D27B9D62 /* Build configuration list for PBXNativeTarget "JWHelperKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB792D20595BF1EA7905B9119A8ACCE1 /* Debug */,
+				FAB8725B340E84945C924BE2AF86CA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75C47DFF35A19366DF61FF55D6367BB /* Build configuration list for PBXNativeTarget "UINavigationControllerWithCompletionBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB84289983DE1848F3366DF51A2C6034 /* Debug */,
+				FBCF042FBBC6BD4B37050C6F3956261D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
