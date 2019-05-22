@@ -17,5 +17,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JWHelperKit/Classes/**/*"
+  "source_files": "JWHelperKit/Classes/**/*",
+  "dependencies": {
+    "UINavigationControllerWithCompletionBlock": [
+
+    ]
+  }
 }

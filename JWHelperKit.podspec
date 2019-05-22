@@ -20,7 +20,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'JWHelperKit/Classes/**/*'
-  
+  s.dependency 'UINavigationControllerWithCompletionBlock'
+
   #s.swift_versions = ['4.2', '5.0'] # 同时支持4.2和5.0
 
 

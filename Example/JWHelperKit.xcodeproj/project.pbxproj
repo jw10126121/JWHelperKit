@@ -31,7 +31,7 @@
 		1AB7429B3CC46A45AA42E4A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1D9A3B2A57C7ABC202E79026 /* Pods-JWHelperKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWHelperKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JWHelperKit_Tests/Pods-JWHelperKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		23BCBAFB9B94FECD73F34FD4 /* Pods_JWHelperKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWHelperKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4222A35B2C702D6CACE1316F /* JWHelperKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JWHelperKit.podspec; path = ../JWHelperKit.podspec; sourceTree = "<group>"; };
+		4222A35B2C702D6CACE1316F /* JWHelperKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JWHelperKit.podspec; path = ../JWHelperKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* JWHelperKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWHelperKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -269,11 +269,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JWHelperKit_Example/Pods-JWHelperKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle/JRSwizzle.framework",
 				"${BUILT_PRODUCTS_DIR}/JWHelperKit/JWHelperKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UINavigationControllerWithCompletionBlock/UINavigationControllerWithCompletionBlock.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWHelperKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UINavigationControllerWithCompletionBlock.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
