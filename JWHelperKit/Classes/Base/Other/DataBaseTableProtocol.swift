@@ -9,7 +9,7 @@
 import Foundation
 
 // 数据库表
-protocol DataBaseTableProtocol {
+public protocol DataBaseTableProtocol {
     
     // 数据库表名
     static func dbTableName() -> String

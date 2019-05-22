@@ -64,7 +64,7 @@ public extension JWNamespaceWrapper where T: UIView {
 }
 
 
-@IBDesignable extension UIView {
+@IBDesignable public extension UIView {
    
     /// 圆角
     @IBInspectable dynamic var cornerRadius: CGFloat {

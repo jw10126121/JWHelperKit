@@ -9,7 +9,7 @@
 import UIKit
 
 /// 选择图片模式
-enum JWChooseImageMode {
+public enum JWChooseImageMode {
     
     /// 什么都不做
     case none
@@ -23,7 +23,7 @@ enum JWChooseImageMode {
 
 extension JWChooseImageMode: CustomStringConvertible {
     
-    var description: String {
+    public var description: String {
         switch self {
         case .image(_):
             return "本地图片"
