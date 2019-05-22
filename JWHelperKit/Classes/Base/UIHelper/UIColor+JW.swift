@@ -19,13 +19,6 @@ extension UInt32: UIColorSource {
     var rgbValue: UInt32 { return self }
 }
 
-extension String: UIColorSource {
-    
-    var rgbValue: UInt32 { return 0x111111 }
-    
-}
-
-
 public extension JWNamespaceWrapper where T: UIColor {
     
     /// 生成UIColor 例: UIColor(rgb: 0x000000)
