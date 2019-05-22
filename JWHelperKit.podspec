@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.swift_version = '5.0'
 
     s.subspec 'Base' do |base|
-        base.source_files  = 'JWHelperKit/Classes/Base/**/*'#, 'JWHelperKit/Classes/Base/Other/', 'JWHelperKit/Classes/Base/UIHelper/'
+        base.source_files  = 'JWHelperKit/Classes/Base/', 'JWHelperKit/Classes/Base/Other/', 'JWHelperKit/Classes/Base/UIHelper/'
         base.framework  = 'UIKit'
     end
     
