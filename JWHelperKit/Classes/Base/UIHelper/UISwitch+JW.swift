@@ -17,4 +17,3 @@ public extension JWNamespaceWrapper where T: UISwitch {
     }
     
 }
-

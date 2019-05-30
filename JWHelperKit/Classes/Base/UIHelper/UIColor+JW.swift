@@ -48,11 +48,7 @@ public extension JWNamespaceWrapper where T: UIColor {
     /// 灰色线
     static var lineGrayColor: UIColor { return UIColor(rgb: 0xD9D9D9, alpha: 1) }
     
-    
 }
-
-
-
 
 extension UIColor {
     
@@ -102,14 +98,5 @@ extension UIColor {
             blue: CGFloat(b) / 0xff,
             alpha: CGFloat(alpha))
     }
-
-    
-
-    
     
 }
-
-
-
-
-

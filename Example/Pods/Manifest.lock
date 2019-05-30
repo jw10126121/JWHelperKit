@@ -1,21 +1,24 @@
 PODS:
   - JRSwizzle (1.0)
-  - JWHelperKit (1.0.4):
-    - JWHelperKit/Base (= 1.0.4)
-    - JWHelperKit/Navigation (= 1.0.4)
-  - JWHelperKit/Base (1.0.4)
-  - JWHelperKit/Navigation (1.0.4):
+  - JWHelperKit (1.0.9):
+    - JWHelperKit/Base (= 1.0.9)
+    - JWHelperKit/Navigation (= 1.0.9)
+  - JWHelperKit/Base (1.0.9)
+  - JWHelperKit/Navigation (1.0.9):
     - JWHelperKit/Base
     - UINavigationControllerWithCompletionBlock
+  - SwiftLint (0.32.0)
   - UINavigationControllerWithCompletionBlock (0.0.8):
     - JRSwizzle (~> 1.0)
 
 DEPENDENCIES:
   - JWHelperKit (from `../`)
+  - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - JRSwizzle
+    - SwiftLint
     - UINavigationControllerWithCompletionBlock
 
 EXTERNAL SOURCES:
@@ -24,9 +27,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
-  JWHelperKit: eb3a264ce58e9e34c319d284231375883d94d154
+  JWHelperKit: ea5cbd9cfb4d4b8ef7ace5596c61de1660d2094e
+  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
   UINavigationControllerWithCompletionBlock: c043176ee769b1e108761fff73ed776645f0f9d0
 
-PODFILE CHECKSUM: 1c394b78904a70ec65b83777d56e469b8852126f
+PODFILE CHECKSUM: 380c8f894b6468f8c0b73e462f4b2150cc64f02a
 
-COCOAPODS: 1.7.0.rc.2
+COCOAPODS: 1.7.0

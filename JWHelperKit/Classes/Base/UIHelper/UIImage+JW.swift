@@ -10,7 +10,6 @@ import UIKit
 import Foundation
 import CoreGraphics
 
-
 /// 拓展UIImage
 public extension JWNamespaceWrapper where T: UIImage {
     
@@ -34,8 +33,8 @@ public extension JWNamespaceWrapper where T: UIImage {
     
     /// 九宫格拉伸
     var resizable: UIImage {
-        let widthFloat = floor(jwWrappedValue.size.width/2)
-        let heightFloat = floor(jwWrappedValue.size.height/2)
+        let widthFloat = floor(jwWrappedValue.size.width / 2)
+        let heightFloat = floor(jwWrappedValue.size.height / 2)
         return jwWrappedValue.resizableImage(withCapInsets: UIEdgeInsets(top: heightFloat, left: widthFloat, bottom: heightFloat, right: widthFloat))
     }
     
@@ -99,8 +98,6 @@ public extension JWNamespaceWrapper where T: UIImage {
         
     }
     
-
-    
 }
 
 // MARK: - 扩展
@@ -150,7 +147,6 @@ public extension UIImage {
         }
         return image
     }
-
     
     /// 截图
     class func screenshot(fromView fv: UIView) -> UIImage {
@@ -163,15 +159,14 @@ public extension UIImage {
         return img ?? UIImage()
     }
     
-    
     var compleHandle: ((Bool) -> Void)? {
         set {
-            let key: UnsafeRawPointer! = UnsafeRawPointer.init(bitPattern: "com.jw.UIImage.compleHandle".hashValue)
+            let key: UnsafeRawPointer! = UnsafeRawPointer(bitPattern: "com.jw.UIImage.compleHandle".hashValue)
             objc_setAssociatedObject(self, key, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
         }
         
         get {
-            let key: UnsafeRawPointer! = UnsafeRawPointer.init(bitPattern: "com.jw.UIImage.compleHandle".hashValue)
+            let key: UnsafeRawPointer! = UnsafeRawPointer(bitPattern: "com.jw.UIImage.compleHandle".hashValue)
             let obj: ((Bool) -> Void)? = objc_getAssociatedObject(self, key) as! ((Bool) -> Void)?
             return obj
         }
@@ -185,7 +180,7 @@ public extension UIImage {
         self.compleHandle = comple
     }
     
-    @objc fileprivate func image(image:UIImage,didFinishSavingWithError error:NSError?,contextInfo:AnyObject) {
+    @objc fileprivate func image(image: UIImage, didFinishSavingWithError error: NSError?, contextInfo: AnyObject) {
         
         self.compleHandle?(error != nil)
         
@@ -210,4 +205,3 @@ public extension UIImage {
     }
     
 }
-

@@ -22,9 +22,5 @@ public extension JWNamespaceWrapper where T: UICollectionReusableView {
         return nil
         
     }
-
-    
-    
     
 }
-

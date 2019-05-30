@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 /// 错误信息协议
 public protocol ErrorMessageProtocol {
     /// Error信息
@@ -27,8 +26,3 @@ public extension Error {
     }
 
 }
-
-
-
-
-

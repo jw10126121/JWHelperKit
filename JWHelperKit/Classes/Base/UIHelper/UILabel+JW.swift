@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 @IBDesignable public extension UILabel {
     
     /// (最大宽度 = 屏幕宽度 - maxLayoutToScreenWidth)
@@ -89,7 +88,6 @@ import UIKit
         
     }
     
-    
     /// 修复LineHeight
     static func fixLineHeightAttributed(_ lineHeight: CGFloat, font: UIFont) -> [NSAttributedString.Key: Any] {
         
@@ -101,9 +99,9 @@ import UIKit
         
         let baselineOffset = fixBaseline(lineHeight: lineHeight, font: font)
         
-        return [NSAttributedString.Key.paragraphStyle: paragrapStyle,
-                NSAttributedString.Key.baselineOffset: baselineOffset,
-                NSAttributedString.Key.font: font]
+        return [.paragraphStyle: paragrapStyle,
+                .baselineOffset: baselineOffset,
+                .font: font]
 
     }
     
@@ -112,7 +110,6 @@ import UIKit
         let baselineOffset = (lineHeight - font.lineHeight) / 4.0
         return baselineOffset
     }
-    
     
 }
 
@@ -174,5 +171,3 @@ public extension JWNamespaceWrapper where T: UILabel {
     }
     
 }
-
-

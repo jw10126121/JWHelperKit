@@ -27,10 +27,10 @@ fileprivate extension UIViewController {
         
         weak var weakSelf: UIViewController? = self
         let mainQuene = OperationQueue.main
-        nc.addObserver(forName: UIResponder.keyboardWillShowNotification, object: nil, queue: mainQuene, using: { note in
+        nc.addObserver(forName: UIResponder.keyboardWillShowNotification, object: nil, queue: mainQuene, using: { _ in
             weakSelf?.view.addGestureRecognizer(singleTapGR)
         })
-        nc.addObserver(forName: UIResponder.keyboardWillHideNotification, object: nil, queue: mainQuene, using: { note in
+        nc.addObserver(forName: UIResponder.keyboardWillHideNotification, object: nil, queue: mainQuene, using: { _ in
             weakSelf?.view.removeGestureRecognizer(singleTapGR)
         })
     }
@@ -40,4 +40,3 @@ fileprivate extension UIViewController {
     }
     
 }
-

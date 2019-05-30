@@ -14,7 +14,6 @@ import CommonCrypto
 
 import CommonCrypto
 
-
 public extension JWNamespaceWrapper where T == String {
     
     // api 与参数拼接
@@ -31,7 +30,7 @@ public extension JWNamespaceWrapper where T == String {
     func apiParams() -> [String: String] {
         var toParams = [String: String]()
         
-        let paramsInfoArray =  jwWrappedValue.split(separator: "&")
+        let paramsInfoArray = jwWrappedValue.split(separator: "&")
         for itemPInfoTemp in paramsInfoArray {
             
             let itemParamsInfo = itemPInfoTemp.split(separator: "=")
@@ -53,7 +52,7 @@ public extension JWNamespaceWrapper where T == String {
         return jwWrappedValue.substring(from: range.location, count: range.length)
     }
     // 子字符串
-    func string(from: Int ,count: Int) -> String {
+    func string(from: Int, count: Int) -> String {
         return jwWrappedValue.substring(from: from, count: count)
     }
     // 子字符串
@@ -124,7 +123,7 @@ public extension JWNamespaceWrapper where T == String {
     }
     
     fileprivate func directoryExists(path: String) -> Bool {
-        var pointer = ObjCBool.init(true);
+        var pointer = ObjCBool(true)
         if FileManager.default.fileExists(atPath: path, isDirectory: &pointer) {
             if !pointer.boolValue {
                 return true
@@ -133,11 +132,9 @@ public extension JWNamespaceWrapper where T == String {
         return false
     }
     
-    
 }
 
 public extension JWNamespaceWrapper where T == String {
-    
     
     var md5: String {
         return jwWrappedValue.md5
@@ -152,7 +149,7 @@ public extension JWNamespaceWrapper where T == String {
     }
  
     // Base64
-    var fromBase64 : String? {
+    var fromBase64: String? {
         guard let data = Data(base64Encoded: jwWrappedValue, options: Data.Base64DecodingOptions(rawValue: 0)) else {
             return nil
         }
@@ -160,19 +157,19 @@ public extension JWNamespaceWrapper where T == String {
     }
     
     // Base64
-    var toBase64 : String? {
+    var toBase64: String? {
         guard let data = jwWrappedValue.data(using: String.Encoding.utf8) else {
             return nil
         }
         return data.base64EncodedString(options: Data.Base64EncodingOptions(rawValue: 0))
     }
     
-    func textSize(maxSize:CGSize, font: UIFont, paragraphStyle: NSMutableParagraphStyle? = nil) -> CGSize {
+    func textSize(maxSize: CGSize, font: UIFont, paragraphStyle: NSMutableParagraphStyle? = nil) -> CGSize {
         
-        var attr = [NSAttributedString.Key : Any]()
+        var attr = [NSAttributedString.Key: Any]()
         attr[NSAttributedString.Key.font] = font
         
-        var oriLineMode: NSLineBreakMode? = nil
+        var oriLineMode: NSLineBreakMode?
         
         // 一定要修改成 byWordWrapping
         if let paragraphStyle = paragraphStyle {
@@ -255,7 +252,6 @@ enum CommonMatchRegex: String {
     // 密码
     case password = "^[a-zA-Z0-9]{6,16}$"
     
-    
     case passwordStrict = "^(?=.*[a-z])(?=.*[a-z]).{6,16}$"
     
     /**
@@ -328,7 +324,7 @@ public extension JWNamespaceWrapper where T == String {
         // 判断是否15或者18位
         guard value.count == 15 || value.count == 18 else { return false }
         
-        let areasStr: [String] = ["11","12", "13", "14", "15","21", "22","23", "31","32", "33","34", "35","36", "37","41", "42","43", "44","45", "46","50", "51","52", "53","54", "61","62", "63","64", "65","71", "81","82", "91"]
+        let areasStr: [String] = ["11", "12", "13", "14", "15", "21", "22", "23", "31", "32", "33", "34", "35", "36", "37", "41", "42", "43", "44", "45", "46", "50", "51", "52", "53", "54", "61", "62", "63", "64", "65", "71", "81", "82", "91"]
         
         // 判断是否存在地区列表中
         guard areasStr.contains(value.substring(to: 2)) else { return false }
@@ -362,14 +358,12 @@ public extension JWNamespaceWrapper where T == String {
             lSumQT += (Int(paperId[i]) - 48) * R[i]
         }
         
-        if sChecker[lSumQT%11] != paperId[17] {
+        if sChecker[lSumQT % 11] != paperId[17] {
             return false
         }
         
         return true
     }
-    
-    
     
 }
 
@@ -382,7 +376,7 @@ fileprivate extension String {
         return predicate.evaluate(with: self)
     }
     
-    var range: NSRange { return NSMakeRange(0, self.count) }
+    var range: NSRange { return NSRange(location: 0, length: self.count) }
     
     func nsRange(fromSubString subString: String) -> NSRange? {
         let subRange = self.range(of: subString)
@@ -396,7 +390,7 @@ fileprivate extension String {
         return self.substring(from: range.location, count: range.length)
     }
     
-    func substring(from: Int ,count: Int) -> String {
+    func substring(from: Int, count: Int) -> String {
         let startIndex = self.index(self.startIndex, offsetBy: from)
         let endIndex = self.index(startIndex, offsetBy: count)
         return String(self[startIndex..<endIndex])
@@ -416,7 +410,6 @@ fileprivate extension String {
     func substring(to index: Int) -> String {
         return self.substring(from: 0, to: index)
     }
-    
     
     func times(_ n: Int) -> String {
         
@@ -496,7 +489,6 @@ fileprivate extension String {
         return toString
     }
     
-    
 }
 
 fileprivate extension String {
@@ -524,7 +516,6 @@ fileprivate extension String {
         toValue.insert(contentsOf: insertContent as String, at: toValue.index(toValue.endIndex, offsetBy: 0))
         return toValue
     }
-    
     
     func areaCodeAt(code: String) -> Bool {
         var dic: [String: String] = [:]
@@ -564,9 +555,7 @@ fileprivate extension String {
         dic["82"] = "澳门"
         dic["91"] = "国外"
         if (dic[code] == nil) { return false }
-        return true;
+        return true
     }
     
 }
-
-

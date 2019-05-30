@@ -9,7 +9,6 @@
 import Foundation
 import AVFoundation
 
-
 public extension JWNamespaceWrapper where T: AVAudioSession {
     
     /**

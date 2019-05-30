@@ -10,8 +10,6 @@ import UIKit
 
 public extension JWNamespaceWrapper where T == NSMutableAttributedString {
     
-
-    
     func bold() -> NSMutableAttributedString {
         
         let range = (jwWrappedValue.string as NSString).range(of: jwWrappedValue.string)
@@ -30,7 +28,4 @@ public extension JWNamespaceWrapper where T == NSMutableAttributedString {
         return jwWrappedValue
     }
     
-    
 }
-
-

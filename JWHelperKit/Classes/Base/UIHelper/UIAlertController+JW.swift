@@ -8,9 +8,7 @@
 
 import UIKit
 
-
 public extension JWNamespaceWrapper where T: UIAlertController {
-    
 
     var messageLabel: UILabel? {
         
@@ -23,7 +21,5 @@ public extension JWNamespaceWrapper where T: UIAlertController {
             .subviews[1] as? UILabel
         
     }
-    
-    
     
 }

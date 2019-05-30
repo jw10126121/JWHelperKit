@@ -51,7 +51,6 @@ public final class JWViewCollectionViewCell<View: UIView>: UICollectionViewCell 
             }
             
         }
-  
         
     }
     

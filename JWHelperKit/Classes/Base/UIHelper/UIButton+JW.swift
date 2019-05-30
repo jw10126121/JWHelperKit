@@ -51,7 +51,6 @@ public extension UIButton {
         }
     }
     
-    
     @IBInspectable
     var imageForSelected: UIImage? {
         get {
@@ -180,7 +179,6 @@ public extension UIButton {
 // MARK: - 按钮扩展风格
 public extension JWNamespaceWrapper where T: UIButton {
     
-    
     func titleImageHorizontalAlignmentwith(_ space: Int) {
         
         self.resetEdgeInsets()
@@ -195,10 +193,9 @@ public extension JWNamespaceWrapper where T: UIButton {
         let imageSize = jwWrappedValue.imageRect(forContentRect: contentRect).size
         
         jwWrappedValue.titleEdgeInsets = UIEdgeInsets(top: 0, left: -imageSize.width, bottom: 0, right: imageSize.width)
-        jwWrappedValue.imageEdgeInsets = UIEdgeInsets(top: 0, left: titleSize.width+CGFloat(space), bottom: 0, right: -titleSize.width-CGFloat(space))
+        jwWrappedValue.imageEdgeInsets = UIEdgeInsets(top: 0, left: titleSize.width + CGFloat(space), bottom: 0, right: -titleSize.width - CGFloat(space))
         
     }
-    
     
     func imageTitleHorizontalAlignmentWith(_ space: Int) {
         
@@ -207,17 +204,14 @@ public extension JWNamespaceWrapper where T: UIButton {
         jwWrappedValue.contentEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: CGFloat(space))
     }
     
-    
     func titleImageVerticalAlignmentWith(_ space: Int) {
         
         self.verticalAlignmentWithTitle(true, space: space)
     }
     
-    
     func imageTitleVerticalAlignmentWith(_ space: Int) {
         self.verticalAlignmentWithTitle(false, space: space)
     }
-    
     
     fileprivate func verticalAlignmentWithTitle(_ isTop: Bool, space: Int) {
         
@@ -230,24 +224,22 @@ public extension JWNamespaceWrapper where T: UIButton {
         let titleSize = jwWrappedValue.titleRect(forContentRect: contentRect).size
         let imageSize = jwWrappedValue.imageRect(forContentRect: contentRect).size
         
-        
-        let halfWidth = (titleSize.width + imageSize.width)/2
-        let halfHeight = (titleSize.height + imageSize.height)/2
+        let halfWidth = (titleSize.width + imageSize.width) / 2
+        let halfHeight = (titleSize.height + imageSize.height) / 2
         
         let topInset = min(halfHeight, titleSize.height)
-        let leftInset = (titleSize.width - imageSize.width)>0 ? (titleSize.width - imageSize.width)/2 : 0
-        let bottomInset = (titleSize.height - imageSize.height)>0 ? (titleSize.height - imageSize.height)/2 : 0
+        let leftInset = (titleSize.width - imageSize.width) > 0 ? (titleSize.width - imageSize.width) / 2 : 0
+        let bottomInset = (titleSize.height - imageSize.height) > 0 ? (titleSize.height - imageSize.height) / 2 : 0
         let rightInset = min(halfWidth, titleSize.width)
         
         if isTop {
-            jwWrappedValue.titleEdgeInsets = UIEdgeInsets(top: -halfHeight-CGFloat(space), left: -halfWidth, bottom: halfHeight+CGFloat(space), right: halfWidth)
-            jwWrappedValue.contentEdgeInsets = UIEdgeInsets(top: topInset+CGFloat(space), left: leftInset, bottom: -bottomInset, right: -rightInset)
+            jwWrappedValue.titleEdgeInsets = UIEdgeInsets(top: -halfHeight - CGFloat(space), left: -halfWidth, bottom: halfHeight + CGFloat(space), right: halfWidth)
+            jwWrappedValue.contentEdgeInsets = UIEdgeInsets(top: topInset + CGFloat(space), left: leftInset, bottom: -bottomInset, right: -rightInset)
         } else {
-            jwWrappedValue.titleEdgeInsets = UIEdgeInsets(top: halfHeight+CGFloat(space), left: -halfWidth, bottom: -halfHeight-CGFloat(space), right: halfWidth)
-            jwWrappedValue.contentEdgeInsets = UIEdgeInsets(top: -bottomInset, left: leftInset, bottom: topInset+CGFloat(space), right: -rightInset)
+            jwWrappedValue.titleEdgeInsets = UIEdgeInsets(top: halfHeight + CGFloat(space), left: -halfWidth, bottom: -halfHeight - CGFloat(space), right: halfWidth)
+            jwWrappedValue.contentEdgeInsets = UIEdgeInsets(top: -bottomInset, left: leftInset, bottom: topInset + CGFloat(space), right: -rightInset)
         }
     }
-    
     
     func resetEdgeInsets() {
         jwWrappedValue.contentEdgeInsets = UIEdgeInsets.zero
@@ -256,8 +248,3 @@ public extension JWNamespaceWrapper where T: UIButton {
     }
     
 }
-
-
-
-
-

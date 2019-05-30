@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 /// 分页数据状态
 public enum MultiplePageState {
     case ok
@@ -32,7 +31,6 @@ public protocol MultiplePageable {
     
 }
 
-
 /// MARK - 分页数据状态
 public struct ListDatasState<T>: MultiplePageable {
     
@@ -45,12 +43,3 @@ public struct ListDatasState<T>: MultiplePageable {
     public var page: Int = 0
 
 }
-
-
-
-
-
-
-
-
-

@@ -8,11 +8,8 @@
 
 import UIKit
 
-
-
 // MARK: - UITableView拓展
 public extension JWNamespaceWrapper where T: UITableView {
-
     
     /// 默认配置
     @discardableResult func defaultStyles() -> T {
@@ -53,9 +50,6 @@ public extension JWNamespaceWrapper where T: UITableView {
         jwWrappedValue.tableFooterView = UIView()
         return jwWrappedValue
     }
-    
-    
-    
     
 }
 

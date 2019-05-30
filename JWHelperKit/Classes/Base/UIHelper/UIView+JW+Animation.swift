@@ -9,8 +9,6 @@
 import Foundation
 import UIKit
 
-
-
 /// UIView动画拓展
 public extension JWNamespaceWrapper where T: UIView {
     
@@ -23,7 +21,7 @@ fileprivate extension UIView {
     /// 动画：变大后还原（点赞效果）
     func bounceAnimation() {
         let impliesAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
-        impliesAnimation.values = [1.0 ,1.5, 0.9, 1.15, 0.95, 1.02, 1.0]
+        impliesAnimation.values = [1.0, 1.5, 0.9, 1.15, 0.95, 1.02, 1.0]
         impliesAnimation.duration = 0.3 * 2
         impliesAnimation.calculationMode = CAAnimationCalculationMode.cubic
         self.layer.add(impliesAnimation, forKey: nil)

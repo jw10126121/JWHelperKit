@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 // MARK: - UIView 扩展
 public extension JWNamespaceWrapper where T: UIView {
     
@@ -58,11 +57,8 @@ public extension JWNamespaceWrapper where T: UIView {
     var circularMaskImgV: UIImageView? {
         return jwWrappedValue.circularMaskImgV
     }
-
-
     
 }
-
 
 @IBDesignable public extension UIView {
    
@@ -147,11 +143,7 @@ public extension JWNamespaceWrapper where T: UIView {
         }
     }
     
-   
-    
 }
-
-
 
 // 当使用setter方法时，对象本身必须是使用var声明的，即是变量
 public extension JWNamespaceWrapper where T: UIView {
@@ -180,7 +172,6 @@ public extension JWNamespaceWrapper where T: UIView {
         
     }
     
-    
     var y: CGFloat {
         
         get {
@@ -191,7 +182,6 @@ public extension JWNamespaceWrapper where T: UIView {
             jwWrappedValue.frame.origin.y = newValue
         }
     }
-    
     
     var width: CGFloat {
         
@@ -233,7 +223,6 @@ public extension JWNamespaceWrapper where T: UIView {
             jwWrappedValue.center.x = newValue
         }
     }
-    
     
     var centerY: CGFloat {
         get {
@@ -279,7 +268,6 @@ public extension JWNamespaceWrapper where T: UIView {
         }
     }
     
-    
     var right: CGFloat {
         get {
             return jwWrappedValue.frame.origin.x + jwWrappedValue.frame.size.width
@@ -290,7 +278,6 @@ public extension JWNamespaceWrapper where T: UIView {
             jwWrappedValue.frame = frame
         }
     }
-    
     
 }
 
@@ -313,7 +300,6 @@ fileprivate extension UIView {
         }
     }
     
-    
     /// 是否有蒙层
     var _hasCircularMaskImgV: Bool {
         get {
@@ -326,12 +312,3 @@ fileprivate extension UIView {
     }
     
 }
-
-
-
-
-
-
-
-
-

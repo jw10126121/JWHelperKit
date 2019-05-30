@@ -28,5 +28,3 @@ public extension JWNamespaceWrapper where T: NSNumber {
     }
     
 }
-
-

@@ -25,8 +25,4 @@ public extension JWNamespaceWrapper where T: UIStackView {
         }
     }
     
-    
-    
 }
-
-

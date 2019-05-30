@@ -59,17 +59,14 @@ public extension JWNamespaceWrapper where T: UIViewController {
             return self.topMost(of: selectedViewController)
         }
         
-        
         if let navigationController = viewController as? UINavigationController,
             let visibleViewController = navigationController.visibleViewController {
             return self.topMost(of: visibleViewController)
         }
         
-        
         if let presentedViewController = viewController?.presentedViewController {
             return self.topMost(of: presentedViewController)
         }
-        
         
         for subview in viewController?.view?.subviews ?? [] {
             if let childViewController = subview.next as? UIViewController {
@@ -111,7 +108,3 @@ public extension JWNamespaceWrapper where T: UIViewController {
     }
     
 }
-
-
-
-

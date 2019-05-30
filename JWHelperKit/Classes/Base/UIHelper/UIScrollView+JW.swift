@@ -46,11 +46,7 @@ public extension JWNamespaceWrapper where T: UIScrollView {
         }
     }
     
-
-    
-    
 }
-
 
 /// 当使用setter方法时，对象本身必须是使用var声明的，即是变量
 public extension JWNamespaceWrapper where T: UIScrollView {
@@ -95,8 +91,4 @@ public extension JWNamespaceWrapper where T: UIScrollView {
         }
     }
     
-    
 }
-
-
-

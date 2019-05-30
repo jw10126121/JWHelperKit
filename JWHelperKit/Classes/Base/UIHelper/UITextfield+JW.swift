@@ -8,11 +8,7 @@
 
 import UIKit
 
-
-
 public extension JWNamespaceWrapper where T == UITextField {
-    
-    
     
     /// 添加左边Icon
     func addPaddingLeftIcon(_ image: UIImage?, padding: CGFloat, mode: UITextField.ViewMode = .always) {
@@ -45,6 +41,4 @@ public extension JWNamespaceWrapper where T == UITextField {
         
     }
     
-    
 }
-

@@ -66,5 +66,4 @@ public extension JWNamespaceWrapper where T: UINavigationController {
         
     }
     
-    
 }

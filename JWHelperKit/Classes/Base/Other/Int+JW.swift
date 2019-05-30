@@ -18,9 +18,6 @@ public extension JWNamespaceWrapper where T == Int {
     var range: CountableRange<Int> { return 0..<jwWrappedValue }
     
     /// 人民币字符串
-    var rmb: String? { return Float(jwWrappedValue).jw.rmb }
-        
-    
-    
+    var rmb: String? { return CGFloat(jwWrappedValue).jw.rmb }
     
 }

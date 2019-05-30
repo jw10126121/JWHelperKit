@@ -9,8 +9,6 @@
 import UIKit
 import WebKit
 
-
-
 public extension JWNamespaceWrapper where T: UIDevice {
 
     /// 是否 iPad
@@ -59,7 +57,7 @@ public extension JWNamespaceWrapper where T: UIDevice {
     static var screenAutoHeight: CGFloat { return UIDevice.screenCurrentBounds.size.height }
     
     /// 横竖屏宽度
-    static var screenAutoWidth: CGFloat  { return UIDevice.screenCurrentBounds.size.width }
+    static var screenAutoWidth: CGFloat { return UIDevice.screenCurrentBounds.size.width }
     
     ///  safeAreaInsets (必须在设置了keyWindow后，才能用)
     static var safeAreaInsets: UIEdgeInsets { return UIDevice.safeAreaInsets }
@@ -77,13 +75,13 @@ public extension JWNamespaceWrapper where T: UIDevice {
     static var screenWidthScale: CGFloat { return UIDevice.screenWidthScale }
 
     /// 缓存目录
-    static var cacheDir:  String { return UIDevice.cacheDir }
+    static var cacheDir: String { return UIDevice.cacheDir }
     
     /// 临时文件目录
-    static var tempDir:  String { return UIDevice.tempDir }
+    static var tempDir: String { return UIDevice.tempDir }
     
     /// 文档目录
-    static var documentDir:  String { return UIDevice.documentDir }
+    static var documentDir: String { return UIDevice.documentDir }
     
     /// app icon 图片名
     static var appIconName: String? { return UIDevice.appIconName }
@@ -166,7 +164,6 @@ public extension JWNamespaceWrapper where T: UIDevice {
     
 }
 
-
 fileprivate extension UIDevice {
     
      static func transformRotationAngle(from io: UIInterfaceOrientation) -> CGAffineTransform {
@@ -174,9 +171,9 @@ fileprivate extension UIDevice {
         if io == UIInterfaceOrientation.portrait {
             
         } else if io == UIInterfaceOrientation.landscapeLeft {
-            t = CGAffineTransform(rotationAngle: CGFloat(-Double.pi/2))
+            t = CGAffineTransform(rotationAngle: CGFloat(-Double.pi / 2))
         } else if io == UIInterfaceOrientation.landscapeRight {
-            t = CGAffineTransform(rotationAngle: CGFloat(Double.pi/2))
+            t = CGAffineTransform(rotationAngle: CGFloat(Double.pi / 2))
         }
         return t
     }
@@ -200,7 +197,6 @@ fileprivate extension UIDevice {
             
         }
     }
-    
     
      static let isIPad: Bool = (UIDevice.current.userInterfaceIdiom == .pad)
     
@@ -273,7 +269,6 @@ fileprivate extension UIDevice {
      static let appBundleId: String = ((Bundle.main.infoDictionary?["CFBundleIdentifier"] as? String) ?? "" )
 
      static let iosVersionStr: String = UIDevice.current.systemVersion
-
     
      static let cacheDir: String = (NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true).first) ?? ""
      static let tempDir: String = NSTemporaryDirectory()

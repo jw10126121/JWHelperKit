@@ -14,9 +14,6 @@ public extension JWNamespaceWrapper where T == CGFloat {
     var pxToFontSize: CGFloat { return CGFloat(jwWrappedValue.pxToFontSize) }
 }
 
-
 fileprivate extension CGFloat {
-    var pxToFontSize: CGFloat { return (self/96.0)*72.0 }
+    var pxToFontSize: CGFloat { return (self / 96.0) * 72.0 }
 }
-
-

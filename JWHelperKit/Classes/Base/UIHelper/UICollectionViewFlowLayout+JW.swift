@@ -18,4 +18,3 @@ public extension JWNamespaceWrapper where T: UICollectionViewFlowLayout {
     }
     
 }
-

@@ -16,7 +16,4 @@ public extension JWNamespaceWrapper where T == Bool {
     // 反转值
     var reversedValue: Bool { return !jwWrappedValue }
     
-    
-    
-    
 }

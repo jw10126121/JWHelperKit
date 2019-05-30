@@ -18,14 +18,14 @@ public extension JWNamespaceWrapper where T: UINavigationController {
     
     static func present(_ viewController: UIViewController, animated: Bool = true, completion: (() -> Swift.Void)? = nil) {
         DispatchQueue.main.async {
-            guard let fromViewController = UINavigationController.jw.topMost else { return  }
+            guard let fromViewController = UINavigationController.jw.topMost else { return }
             fromViewController.present(viewController, animated: animated, completion: completion)
         }
     }
     
     static func dismiss(animated: Bool = true, completion: (() -> Swift.Void)? = nil) {
         DispatchQueue.main.async {
-            guard let fromViewController = UINavigationController.jw.topMost else { return  }
+            guard let fromViewController = UINavigationController.jw.topMost else { return }
             fromViewController.view.endEditing(true)
             fromViewController.dismiss(animated: animated, completion: completion)
         }
@@ -33,13 +33,9 @@ public extension JWNamespaceWrapper where T: UINavigationController {
     
     static func showDetail(_ viewController: UIViewController, sender: Any?) {
         DispatchQueue.main.async {
-            guard let fromViewController = UINavigationController.jw.topMost else { return  }
+            guard let fromViewController = UINavigationController.jw.topMost else { return }
             fromViewController.showDetailViewController(viewController, sender: sender)
         }
     }
     
-
-    
 }
-
-

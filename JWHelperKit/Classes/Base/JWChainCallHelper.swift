@@ -11,7 +11,6 @@ import UIKit
 /// 链式调用拓展
 public extension JWNamespaceWrapper where T: NSObject {
     
-    
     /// 配置
     @discardableResult func config(_ config: (T) -> Void) -> T {
         config(jwWrappedValue)
@@ -31,13 +30,3 @@ public extension JWNamespaceWrapper where T: NSObject {
     }
     
 }
-
-
-
-
-
-
-
-
-
-

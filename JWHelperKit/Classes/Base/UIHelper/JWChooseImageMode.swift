@@ -18,16 +18,15 @@ public enum JWChooseImageMode {
     /// URL
     case url(String?)
     
-    
 }
 
 extension JWChooseImageMode: CustomStringConvertible {
     
     public var description: String {
         switch self {
-        case .image(_):
+        case .image:
             return "本地图片"
-        case .url(_):
+        case .url:
             return "网络图片"
         default:
             return ""

@@ -8,30 +8,42 @@
 
 import Foundation
 
-
-public enum TimeFormatterType: String {
-    case HHmm = "HH:mm"
-    case mmss = "mm:ss"
+/// 格式化枚举
+public enum TimeFormatterType {
+    case HHmm // = "HH:mm"
+    case mmss // = "mm:ss"
+    case custom(String)
+    
+    /// 格式化字符串
+    var formatterString: String {
+        switch self {
+        case .HHmm:
+            return "HH:mm"
+        case .mmss:
+            return "mm:ss"
+        case let .custom(formatter):
+            return formatter
+        }
+    }
+    
 }
-
 
 public extension JWNamespaceWrapper where T == Date {
     
     func toFormattedString(_ formatterType: TimeFormatterType) -> String {
         
         let df = DateFormatter()
-        df.dateFormat = formatterType.rawValue
+        df.dateFormat = formatterType.formatterString
         
         return df.string(from: jwWrappedValue)
         
     }
     
-    
-    
 }
 
 public extension JWNamespaceWrapper where T == TimeInterval {
     
+    /// 播放时间
     func toPlayTimeStr() -> String {
         
         let secounds = jwWrappedValue
@@ -51,4 +63,3 @@ public extension JWNamespaceWrapper where T == TimeInterval {
     }
     
 }
-

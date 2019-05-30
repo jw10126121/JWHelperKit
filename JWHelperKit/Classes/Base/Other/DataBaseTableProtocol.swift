@@ -15,4 +15,3 @@ public protocol DataBaseTableProtocol {
     static func dbTableName() -> String
     
 }
-
