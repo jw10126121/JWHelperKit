@@ -26,3 +26,15 @@ public extension Error {
     }
 
 }
+
+public extension JWNamespaceWrapper where T: Error {
+    
+    /// Error信息 默认实现
+    var errorMessage: String {
+        guard let error = jwWrappedValue as? ErrorMessageProtocol else {
+            return jwWrappedValue.localizedDescription
+        }
+        return error.errorMessage
+    }
+    
+}

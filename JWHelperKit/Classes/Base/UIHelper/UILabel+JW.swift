@@ -113,6 +113,35 @@ import UIKit
     
 }
 
+public extension JWNamespaceWrapper where T: UILabel {
+    
+    /// 真实行间距 = 设计行间距 - 行间距偏移量(lineSpaceOffset)
+    var lineSpaceOffset: CGFloat {
+        return (jwWrappedValue.font.lineHeight - jwWrappedValue.font.pointSize)
+    }
+    
+    /// (最大宽度 = 屏幕宽度 - maxLayoutToScreenWidth)
+    var maxLayoutToScreenWidth: CGFloat {
+        get {
+            return UIDevice.jw.screenWidth - jwWrappedValue.preferredMaxLayoutWidth
+        }
+        
+        set {
+            jwWrappedValue.preferredMaxLayoutWidth = UIDevice.jw.screenWidth - newValue
+        }
+    }
+    
+    /// 带动画设置text
+    func set(text aText: String?, duration: TimeInterval) {
+        
+        UIView.transition(with: jwWrappedValue, duration: duration, options: .transitionCrossDissolve, animations: { () -> Void in
+            self.jwWrappedValue.text = aText
+        }, completion: nil)
+        
+    }
+    
+}
+
 // UILabel.Runtime
 private extension UILabel {
     
@@ -139,35 +168,6 @@ private extension UILabel {
             objc_setAssociatedObject(self, &UILabelRTKeys.KeyForAutoFixMaxLength, newValue as Bool?, objc_AssociationPolicy.OBJC_ASSOCIATION_ASSIGN
             )
         }
-    }
-    
-}
-
-public extension JWNamespaceWrapper where T: UILabel {
-    
-    /// 真实行间距 = 设计行间距 - 行间距偏移量(lineSpaceOffset)
-    var lineSpaceOffset: CGFloat {
-        return (jwWrappedValue.font.lineHeight - jwWrappedValue.font.pointSize)
-    }
-    
-    /// (最大宽度 = 屏幕宽度 - maxLayoutToScreenWidth)
-    var maxLayoutToScreenWidth: CGFloat {
-        get {
-            return UIDevice.jw.screenWidth - jwWrappedValue.preferredMaxLayoutWidth
-        }
-        
-        set {
-            jwWrappedValue.preferredMaxLayoutWidth = UIDevice.jw.screenWidth - newValue
-        }
-    }
-    
-    /// 带动画设置text
-    func set(text aText: String?, duration: TimeInterval) {
-        
-        UIView.transition(with: jwWrappedValue, duration: duration, options: .transitionCrossDissolve, animations: { () -> Void in
-            self.jwWrappedValue.text = aText
-        }, completion: nil)
-        
     }
     
 }
