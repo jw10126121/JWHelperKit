@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='JWHelperKit_Tests.xctest' tests='2' failures='0'>
   <testsuite name='JWHelperKit_Tests.Tests' tests='2' failures='0'>
-    <testcase classname='JWHelperKit_Tests.Tests' name='testExample' time='0.008'/>
-    <testcase classname='JWHelperKit_Tests.Tests' name='testPerformanceExample' time='0.494'/>
+    <testcase classname='JWHelperKit_Tests.Tests' name='testExample' time='0.001'/>
+    <testcase classname='JWHelperKit_Tests.Tests' name='testPerformanceExample' time='0.327'/>
   </testsuite>
 </testsuites>
