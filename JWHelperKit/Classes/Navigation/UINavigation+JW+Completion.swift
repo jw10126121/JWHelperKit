@@ -89,6 +89,7 @@ fileprivate extension UINavigationController {
     }
     
     /// 带completion的Pop方法
+    @discardableResult
     func jwPopViewController(animated: Bool = true, completion: (() -> Void)? = nil) -> UIViewController? {
         
         /// 设置动画完成回调
@@ -105,6 +106,7 @@ fileprivate extension UINavigationController {
     }
     
     /// 带completion的Pop方法
+    @discardableResult
     func jwPopToViewController(_ viewController: UIViewController, animated: Bool = true, completion: (() -> Void)? = nil) -> [UIViewController]? {
         
         /// 设置动画完成回调
@@ -121,6 +123,7 @@ fileprivate extension UINavigationController {
     }
     
     /// 带completion的Pop方法
+    @discardableResult
     func jwPopToRootViewController(animated: Bool = true, completion: (() -> Void)? = nil) -> [UIViewController]? {
         
         /// 设置动画完成回调
