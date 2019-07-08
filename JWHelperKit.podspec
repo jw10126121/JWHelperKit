@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
     s.name         = 'JWHelperKit'
-    s.version      = '1.1.3'
+    s.version      = '1.1.4'
     s.summary      = 'JWHelperKit: Swift拓展'
     s.homepage     = 'https://github.com/jw10126121/JWHelperKit'
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
