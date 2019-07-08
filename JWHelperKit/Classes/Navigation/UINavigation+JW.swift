@@ -12,10 +12,12 @@ import UIKit
 /// 拓展导航条
 public extension JWNamespaceWrapper where T: UINavigationController {
     
+    /// 获取KeyWindow下的rootViewController
     static func rootViewController() -> UIViewController? {
         return UIApplication.shared.keyWindow?.rootViewController
     }
     
+    /// present
     static func present(_ viewController: UIViewController, animated: Bool = true, completion: (() -> Swift.Void)? = nil) {
         DispatchQueue.main.async {
             guard let fromViewController = UINavigationController.jw.topMost else { return }
@@ -23,6 +25,7 @@ public extension JWNamespaceWrapper where T: UINavigationController {
         }
     }
     
+    /// dismiss
     static func dismiss(animated: Bool = true, completion: (() -> Swift.Void)? = nil) {
         DispatchQueue.main.async {
             guard let fromViewController = UINavigationController.jw.topMost else { return }
@@ -31,6 +34,7 @@ public extension JWNamespaceWrapper where T: UINavigationController {
         }
     }
     
+    /// showDetail
     static func showDetail(_ viewController: UIViewController, sender: Any?) {
         DispatchQueue.main.async {
             guard let fromViewController = UINavigationController.jw.topMost else { return }

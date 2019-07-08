@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
     s.name         = 'JWHelperKit'
-    s.version      = '1.1.2'
+    s.version      = '1.1.3'
     s.summary      = 'JWHelperKit: Swift拓展'
     s.homepage     = 'https://github.com/jw10126121/JWHelperKit'
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     s.subspec 'Navigation' do |navigation|
         navigation.source_files = 'JWHelperKit/Classes/Navigation/**/*'
         navigation.dependency 'JWHelperKit/Base'
-        navigation.dependency 'UINavigationControllerWithCompletionBlock'
+        #navigation.dependency 'UINavigationControllerWithCompletionBlock'
     end
     
 end

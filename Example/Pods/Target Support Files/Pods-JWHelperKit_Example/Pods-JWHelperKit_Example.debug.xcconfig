@@ -1,10 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JRSwizzle" "${PODS_CONFIGURATION_BUILD_DIR}/JWHelperKit" "${PODS_CONFIGURATION_BUILD_DIR}/UINavigationControllerWithCompletionBlock"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JWHelperKit"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JRSwizzle/JRSwizzle.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JWHelperKit/JWHelperKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UINavigationControllerWithCompletionBlock/UINavigationControllerWithCompletionBlock.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JWHelperKit/JWHelperKit.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/JWHelperKit/JWHelperKit.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/JWHelperKit"
-OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "JRSwizzle" -framework "JWHelperKit" -framework "UIKit" -framework "UINavigationControllerWithCompletionBlock"
+OTHER_LDFLAGS = $(inherited) -framework "JWHelperKit" -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

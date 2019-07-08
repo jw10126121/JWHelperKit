@@ -1,6 +1,0 @@
-framework module UINavigationControllerWithCompletionBlock {
-  umbrella header "UINavigationControllerWithCompletionBlock-umbrella.h"
-
-  export *
-  module * { export * }
-}
