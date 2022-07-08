@@ -9,10 +9,6 @@
 import Foundation
 import UIKit
 import CommonCrypto
-//import Cache             // MD5
-//import CryptoSwift     // MD5
-
-import CommonCrypto
 
 public extension JWNamespaceWrapper where T == String {
     
@@ -71,8 +67,8 @@ public extension JWNamespaceWrapper where T == String {
     var range: NSRange { return jwWrappedValue.range }
 
     // 子字符串位置
-    func nsRange(fromSubString subString: String) -> NSRange? {
-        return jwWrappedValue.nsRange(fromSubString: subString)
+    func nsRange(fromSubString subString: String, options: String.CompareOptions = []) -> NSRange? {
+        return jwWrappedValue.nsRange(fromSubString: subString, options: options)
     }
     
     // 修复urlencode问题
@@ -85,6 +81,10 @@ public extension JWNamespaceWrapper where T == String {
     
     func urlEncodeQueryAllowed() -> String? {
         return jwWrappedValue.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+    }
+    
+    func urlEncodeQueryAllowedSafe() -> String {
+        return jwWrappedValue.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? jwWrappedValue
     }
     
     func urlEncodeQueryAllowedFix() -> String {
@@ -135,6 +135,22 @@ public extension JWNamespaceWrapper where T == String {
 }
 
 public extension JWNamespaceWrapper where T == String {
+    
+    var hexadecimal: Data? {
+        var data = Data(capacity: jwWrappedValue.count / 2)
+        let regex = try! NSRegularExpression(pattern: "[0-9a-f]{1,2}", options: .caseInsensitive)
+        regex.enumerateMatches(in: jwWrappedValue, range: NSMakeRange(0, jwWrappedValue.utf16.count)) { match, flags, stop in
+            let byteString = (jwWrappedValue as NSString).substring(with: match!.range)
+            var num = UInt8(byteString, radix: 16)!
+            data.append(&num, count: 1)
+        }
+        guard data.count > 0 else { return nil }
+        return data
+    }
+    
+    var trim: String {
+        return jwWrappedValue.trimmingCharacters(in: .whitespaces).trimmingCharacters(in: .newlines)
+    }
     
     var md5: String {
         return jwWrappedValue.md5
@@ -378,8 +394,8 @@ fileprivate extension String {
     
     var range: NSRange { return NSRange(location: 0, length: self.count) }
     
-    func nsRange(fromSubString subString: String) -> NSRange? {
-        let subRange = self.range(of: subString)
+    func nsRange(fromSubString subString: String, options: String.CompareOptions = []) -> NSRange? {
+        let subRange = self.range(of: subString, options: options)
         if let subRange = subRange {
             return NSRange(subRange, in: self)
         }

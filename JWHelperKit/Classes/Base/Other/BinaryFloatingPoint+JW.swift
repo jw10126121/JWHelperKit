@@ -19,4 +19,8 @@ public extension JWNamespaceWrapper where T: BinaryFloatingPoint {
     /// 人民币字符，最多2位小数，最少0位小数，比如1.99，1.9，1
     var rmb: String? { return NSNumber(value: Float(jwWrappedValue)).jw.rmb }
     
+    /// 数字转字符串
+    func digitsText(style: NumberFormatter.Style = .decimal, minDecimal: Int, maxDecimal: Int) -> String? {
+        return NSNumber(value: Float(jwWrappedValue)).jw.digitsText(style: style, minDecimal: minDecimal, maxDecimal: maxDecimal)        
+    }
 }

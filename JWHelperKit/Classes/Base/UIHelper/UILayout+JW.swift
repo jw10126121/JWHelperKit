@@ -11,8 +11,23 @@ import UIKit
 /// NSLayoutConstraint.fix
 @IBDesignable public extension NSLayoutConstraint {
     
+    @IBInspectable var safeBottomHeightOffset: Bool {
+        
+        get { return self._isAutoOffsetSafeBottomHeight }
+        
+        set {
+            if newValue && !self._isAutoOffsetSafeBottomHeight {
+                self._isAutoOffsetSafeBottomHeight = true
+                self.constant = self.constant + CGFloat(UIDevice.jw.safeAreaInsets.bottom)
+            } else if !newValue && self._isAutoOffsetSafeBottomHeight {
+                self._isAutoOffsetSafeBottomHeight = false
+                self.constant = self.constant - CGFloat(UIDevice.jw.safeAreaInsets.bottom)
+            }
+        }
+    }
+    
     /// 偏移导航栏条高度
-    @IBInspectable var autoOffsetNavBarHeight: Bool {
+    @IBInspectable var navBarHeightOffset: Bool {
         
         get { return self._isAutoOffsetNavBarHeight }
         
@@ -28,7 +43,7 @@ import UIKit
     }
     
     /// 偏移状态栏高度
-    @IBInspectable var autoOffsetStateBarHeight: Bool {
+    @IBInspectable var satateBarHeightOffset: Bool {
         
         get { return self._isAutoOffsetStateBarHeight }
         
@@ -44,7 +59,7 @@ import UIKit
     }
     
     /// 基于宽度等比缩放
-    @IBInspectable var autoFixScale: Bool {
+    @IBInspectable var fixScale: Bool {
         
         get { return self._autoScale }
         
@@ -68,6 +83,7 @@ fileprivate extension NSLayoutConstraint {
         static var KeyForAutoOffsetNavBarHeight = "KeyForAutoOffsetNavBarHeight"
         static var KeyForAutoOffsetStateBarHeight = "KeyForAutoOffsetStateBarHeight"
         static var KeyForAutoScale = "KeyForAutoScale"
+        static var KeyForAutoOffsetSafeBottomHeight = "KeyForAutoOffsetSafeBottomHeight"
     }
     
     var _isAutoOffsetStateBarHeight: Bool {
@@ -96,6 +112,16 @@ fileprivate extension NSLayoutConstraint {
         }
         set {
             objc_setAssociatedObject(self, &NSLayoutConstraintRTKeys.KeyForAutoScale, newValue as Bool?, objc_AssociationPolicy.OBJC_ASSOCIATION_ASSIGN
+            )
+        }
+    }
+    
+    var _isAutoOffsetSafeBottomHeight: Bool {
+        get {
+            return objc_getAssociatedObject(self, &NSLayoutConstraintRTKeys.KeyForAutoOffsetSafeBottomHeight) as? Bool ?? false
+        }
+        set {
+            objc_setAssociatedObject(self, &NSLayoutConstraintRTKeys.KeyForAutoOffsetSafeBottomHeight, newValue as Bool?, objc_AssociationPolicy.OBJC_ASSOCIATION_ASSIGN
             )
         }
     }

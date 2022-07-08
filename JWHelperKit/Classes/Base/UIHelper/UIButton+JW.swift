@@ -9,6 +9,35 @@
 import Foundation
 import UIKit
 
+
+public extension UIButton {
+    
+    private struct UIButtonRTKeys {
+        static var tap_touUpInside = "com.jw.app.tap_touUpInside"
+    }
+    
+    /// 点击事件回掉
+    private var actionResult: (() -> ())? {
+        get {
+            let view = objc_getAssociatedObject(self, &UIButtonRTKeys.tap_touUpInside) as? (() -> ())
+            return view
+        }
+        set {
+            objc_setAssociatedObject(self, &UIButtonRTKeys.tap_touUpInside, newValue as (() -> ())?, objc_AssociationPolicy.OBJC_ASSOCIATION_COPY_NONATOMIC)
+        }
+    }
+    
+    func tap(action: @escaping (() -> ())) {
+        self.actionResult = action
+        self.addTarget(self, action: #selector(tapAction(_:)), for: .touchUpInside)
+    }
+    
+    @objc private func tapAction(_ sender: UIButton) {
+        actionResult?()
+    }
+    
+}
+
 public extension UIButton {
     
     @IBInspectable
@@ -143,7 +172,6 @@ public extension UIButton {
     
     @IBInspectable
     var backgroundImageNormal: UIImage? {
-        
         get {
             return backgroundImage(for: .normal)
         }
@@ -154,7 +182,6 @@ public extension UIButton {
     
     @IBInspectable
     var backgroundImageSelected: UIImage? {
-        
         get {
             return backgroundImage(for: .selected)
         }
@@ -165,13 +192,25 @@ public extension UIButton {
     
     @IBInspectable
     var backgroundImageDisabled: UIImage? {
-        
         get {
             return backgroundImage(for: .disabled)
         }
         set {
             setBackgroundImage(newValue, for: .disabled)
         }
+    }
+    
+}
+
+
+fileprivate class UIButtonTapActionClass: NSObject {
+    
+    var resultAction: (() -> ())
+    
+    init(action: @escaping (() -> ())) { self.resultAction = action }
+    
+    @objc func tapAction(_ sender: UIButton) {
+        self.resultAction()
     }
     
 }

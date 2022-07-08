@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// Int拓展
 public extension JWNamespaceWrapper where T == Int {
@@ -19,5 +20,10 @@ public extension JWNamespaceWrapper where T == Int {
     
     /// 人民币字符串
     var rmb: String? { return CGFloat(jwWrappedValue).jw.rmb }
+    
+    /// 数字转字符串
+    func digitsText(style: NumberFormatter.Style = .decimal, minDecimal: Int, maxDecimal: Int) -> String? {
+        return NSNumber(value: jwWrappedValue).jw.digitsText(style: style, minDecimal: minDecimal, maxDecimal: maxDecimal)
+    }
     
 }

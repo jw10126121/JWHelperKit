@@ -11,6 +11,10 @@ import UIKit
 /// UIScrollView拓展
 public extension JWNamespaceWrapper where T: UIScrollView {
     
+    @discardableResult func defaultStyles() -> T {
+        return jwWrappedValue
+    }
+    
     /// 设置ScrollView Insets 自动调整(iOS11以下，需要在ScrollView添加到viewController上才能用)
     func contentInsetAdjustmentBehaviorAutomatic(_ isAuto: Bool) {
         
@@ -91,4 +95,11 @@ public extension JWNamespaceWrapper where T: UIScrollView {
         }
     }
     
+}
+
+@objc public extension UIScrollView {
+    /// 设置ScrollView Insets 自动调整(iOS11以下，需要在ScrollView添加到viewController上才能用)
+    func wContentInsetAdjustmentBehaviorAutomatic(_ isAuto: Bool) {
+        self.jw.contentInsetAdjustmentBehaviorAutomatic(isAuto)
+    }
 }

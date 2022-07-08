@@ -11,6 +11,13 @@ import UIKit
 /// 拓展 UIStackView
 public extension JWNamespaceWrapper where T: UIStackView {
     
+    @discardableResult func defaultStyles() -> T {
+        jwWrappedValue.distribution = .fill
+        jwWrappedValue.alignment = .fill
+        jwWrappedValue.spacing = 0
+        return jwWrappedValue
+    }
+    
     /// 添加视图
     func addArrangedSubviews(_ views: UIView...) {
         for view in views { jwWrappedValue.addArrangedSubview(view) }

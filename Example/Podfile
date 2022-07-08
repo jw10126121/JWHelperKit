@@ -1,16 +1,20 @@
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 
 use_frameworks!
 #inhibit_all_warnings! #忽略所有警告
 
 target 'JWHelperKit_Example' do
+  
   pod 'JWHelperKit', :path => '../', :inhibit_warnings => true
   pod 'SwiftLint'
-
+#  pod 'SnapKit'
+  
   target 'JWHelperKit_Tests' do
     inhibit_all_warnings!
     inherit! :search_paths
 
     
   end
+  
 end

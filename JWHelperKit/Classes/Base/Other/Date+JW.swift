@@ -13,7 +13,9 @@ public enum TimeFormatterType {
     case HHmm // = "HH:mm"
     case mmss // = "mm:ss"
     case custom(String)
-    
+    case yyyyMMddHHmmss
+    case yyyyMMdd
+
     /// 格式化字符串
     var formatterString: String {
         switch self {
@@ -21,8 +23,12 @@ public enum TimeFormatterType {
             return "HH:mm"
         case .mmss:
             return "mm:ss"
+        case .yyyyMMdd:
+            return "yyyy-MM-dd"
         case let .custom(formatter):
             return formatter
+        case .yyyyMMddHHmmss:
+            return "yyyy-MM-dd HH:mm:ss"
         }
     }
     
@@ -60,6 +66,25 @@ public extension JWNamespaceWrapper where T == TimeInterval {
             return String(format: "%02d:%02d:%02d", hour, minute, second)
         }
         return String(format: "%02d:%02d", minute, second)
+    }
+    
+    /// 播放时间
+    func toTimeStr() -> String {
+        
+        let secounds = jwWrappedValue
+        
+        if secounds.isNaN {
+            return "00:00:00"
+        }
+        var minute = Int(secounds / 60)
+        let second = Int(secounds.truncatingRemainder(dividingBy: 60))
+        var hour = 0
+        if minute >= 60 {
+            hour = Int(minute / 60)
+            minute = minute - hour * 60
+            return String(format: "%02d:%02d:%02d", hour, minute, second)
+        }
+        return String(format: "%02d:%02d:%02d", hour, minute, second)
     }
     
 }

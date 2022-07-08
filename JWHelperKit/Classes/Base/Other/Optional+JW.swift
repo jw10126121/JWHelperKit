@@ -14,22 +14,16 @@ extension Optional {
     /// 可选值为空
     var isNone: Bool {
         switch self {
-        case .none:
-            return true
-        case .some:
-            return false
+        case .none: return true
+        case .some: return false
         }
     }
     
     /// 可选值非空
-    var isSome: Bool {
-        return !isNone
-    }
+    var isSome: Bool { return !isNone }
     
     /// 可选值为空
-    var isNil: Bool {
-        return !isNone
-    }
+    var isNil: Bool { return !isNone }
     
 }
 

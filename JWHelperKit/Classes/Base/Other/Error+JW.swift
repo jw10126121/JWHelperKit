@@ -12,6 +12,7 @@ import UIKit
 public protocol ErrorMessageProtocol {
     /// Error信息
     var errorMessage: String { get }
+
 }
 
 /// 拓展错误描述信息
@@ -23,6 +24,11 @@ public extension Error {
             return self.localizedDescription
         }
         return error.errorMessage
+    }
+    
+    /// 转化为NSError
+    func asNSError() -> NSError {
+        return NSError(domain: self._domain, code: self._code, userInfo: [NSLocalizedDescriptionKey: self.errorMessage])
     }
 
 }

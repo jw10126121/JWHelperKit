@@ -1,6 +1,6 @@
 //
 //  ResponseState.swift
-//  ToMakeMoney
+//
 //
 //  Created by LjwMac on 2018/1/15.
 //  Copyright © 2018年 jw. All rights reserved.
@@ -8,8 +8,15 @@
 
 import Foundation
 
+
 /// 分页数据状态
 public enum MultiplePageState {
+    
+    /// 分页通用数据起始页
+    public static let startPage: Int = 1
+    /// 分页数据每页限制数量
+    public static let limitNumber: Int = 10
+    
     case ok
     case error(String)
 }

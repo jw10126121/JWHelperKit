@@ -1,36 +1,23 @@
 //
-//  JWChooseImage.swift
-//  AiXiaoYaApp
+//  JWChooseImageMode.swift
+//  oa
 //
-//  Created by linjw on 2019/3/13.
-//  Copyright © 2019 Linjw. All rights reserved.
+//  Created by Linjw on 2022/3/18.
 //
 
+import Foundation
 import UIKit
 
-/// 选择图片模式
+
+/// 选择后的图片类型
 public enum JWChooseImageMode {
     
-    /// 什么都不做
-    case none
-    /// 本地图片
-    case image(UIImage?)
-    /// URL
-    case url(String?)
+    /// app图片
+    case appImage(UIImage?)
+    /// 图片(本地图片或网络图片)
+    case image(JWImageSource)
     
 }
 
-extension JWChooseImageMode: CustomStringConvertible {
-    
-    public var description: String {
-        switch self {
-        case .image:
-            return "本地图片"
-        case .url:
-            return "网络图片"
-        default:
-            return ""
-        }
-    }
-    
-}
+
+extension JWChooseImageMode: Equatable {}

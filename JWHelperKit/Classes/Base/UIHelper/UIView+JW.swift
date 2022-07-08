@@ -48,9 +48,16 @@ public extension JWNamespaceWrapper where T: UIView {
         return image
     }
     
+    /// 移除所有view
+    func removeAllSubviews() {
+        for subView in jwWrappedValue.subviews {
+            subView.removeFromSuperview()
+        }
+    }
+    
     /// 配置蒙层
     func configMaskImg(image: UIImage?, maskColor: UIColor? = nil) {
-        jwWrappedValue.configMaskImg(image: image, maskColor: maskColor)
+        jwWrappedValue.wConfigMaskImg(image: image, maskColor: maskColor)
     }
     
     /// 蒙层
@@ -58,12 +65,41 @@ public extension JWNamespaceWrapper where T: UIView {
         return jwWrappedValue.circularMaskImgV
     }
     
+    func autoSize(maxWidth: CGFloat = CGFloat(UIScreen.main.bounds.size.width), maxHeight: CGFloat = 0) -> CGSize {
+        return jwWrappedValue.wAutoSize(maxWidth: maxWidth, maxHeight: maxHeight)
+    }
+    
 }
 
 @IBDesignable public extension UIView {
+    
+    func wAutoSize(maxWidth: CGFloat = CGFloat(UIScreen.main.bounds.size.width), maxHeight: CGFloat = 0) -> CGSize {
+        if maxWidth * maxHeight != 0 {
+            return CGSize(width: CGFloat(maxWidth), height: CGFloat(maxHeight))
+        }
+        let oriHeadViewSize: CGSize = self.systemLayoutSizeFitting(CGSize(width: CGFloat(maxWidth), height: CGFloat(maxHeight)),
+                                                                         withHorizontalFittingPriority: UILayoutPriority.defaultHigh,
+                                                                         verticalFittingPriority: UILayoutPriority.fittingSizeLevel)
+        return oriHeadViewSize
+    }
    
+    /// 添加圆角(要在bounds有值时，才管用)
+    func wCorner(rectCorner: UIRectCorner, cornerRadius: CGSize, color: UIColor = UIColor.white) {
+        
+        let path = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: rectCorner, cornerRadii: cornerRadius)
+
+        let mask = CAShapeLayer()
+        mask.path = path.cgPath
+        mask.frame = self.bounds
+        mask.fillColor = color.cgColor
+        mask.strokeColor = color.cgColor
+        self.layer.insertSublayer(mask, at: 0)
+        
+    }
+    
+    
     /// 圆角
-    @IBInspectable dynamic var cornerRadius: CGFloat {
+    @IBInspectable dynamic var wCornerRadius: CGFloat {
         get {
             return self.layer.cornerRadius
         }
@@ -76,7 +112,7 @@ public extension JWNamespaceWrapper where T: UIView {
     }
     
     /// 边缘宽度
-    @IBInspectable dynamic var borderWidth: CGFloat {
+    @IBInspectable dynamic var wBorderWidth: CGFloat {
         get {
             return self.layer.borderWidth
         }
@@ -89,7 +125,7 @@ public extension JWNamespaceWrapper where T: UIView {
     }
     
     /// 边缘颜色
-    @IBInspectable dynamic var borderColor: UIColor? {
+    @IBInspectable dynamic var wBorderColor: UIColor? {
         get {
             guard let cgColor = self.layer.borderColor else {
                 return nil
@@ -105,7 +141,7 @@ public extension JWNamespaceWrapper where T: UIView {
     }
     
     /// 配置蒙层
-    fileprivate func configMaskImg(image: UIImage?, maskColor: UIColor? = nil) {
+    fileprivate func wConfigMaskImg(image: UIImage?, maskColor: UIColor? = nil) {
 
         guard let image = image else {
             if let imageView = self.circularMaskImgV, imageView.superview != nil {

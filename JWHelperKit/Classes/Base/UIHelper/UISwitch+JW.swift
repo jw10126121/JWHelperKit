@@ -12,8 +12,6 @@ import UIKit
 public extension JWNamespaceWrapper where T: UISwitch {
     
     /// 值反转
-    func reversed(animated: Bool = true) {
-        jwWrappedValue.setOn(!jwWrappedValue.isOn, animated: animated)
-    }
+    func reversed(animated: Bool = true) { jwWrappedValue.setOn(!jwWrappedValue.isOn, animated: animated) }
     
 }

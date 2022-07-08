@@ -8,10 +8,10 @@
 
 import UIKit
 
-// MARK: - 拓展UICollectionViewCell
+// MARK: - 拓展UICollectionReusableView
 public extension JWNamespaceWrapper where T: UICollectionReusableView {
     
-    /// 获取cell所在的UICollectionView
+    /// 获取UICollectionReusableView所在的UICollectionView
     func collectionView() -> UICollectionView? {
         
         for view in sequence(first: jwWrappedValue.superview, next: { $0?.superview }) {

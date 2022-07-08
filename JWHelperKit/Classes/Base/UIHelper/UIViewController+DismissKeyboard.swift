@@ -11,9 +11,7 @@ import UIKit
 public extension JWNamespaceWrapper where T: UIViewController {
     
     /// 设置点击背景隐藏键盘
-    func setupForDismissKeyboard() {
-        jwWrappedValue.setupForDismissKeyboard()
-    }
+    func setupForDismissKeyboard() { jwWrappedValue.setupForDismissKeyboard() }
     
 }
 

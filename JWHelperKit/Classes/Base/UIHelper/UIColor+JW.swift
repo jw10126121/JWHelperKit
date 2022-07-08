@@ -36,10 +36,10 @@ public extension JWNamespaceWrapper where T: UIColor {
         return UIColor(hexString: hexString, alpha: alpha)
     }
     
-    /// 分割线颜色
+    /// 分割线颜色 224,224,224
     static var separatorColor: UIColor { return UIColor(rgb: 0xDEDFE0, alpha: 1) }
     
-    /// 视图背景色
+    /// 视图背景色 240,240,240
     static var viewBackgroundColor: UIColor { return UIColor(rgb: 0xF0F0F0, alpha: 1) }
     
     /// 白色线

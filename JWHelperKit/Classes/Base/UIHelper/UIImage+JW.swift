@@ -22,7 +22,10 @@ public extension JWNamespaceWrapper where T: UIImage {
     /// 数据大小
     var bytesSize: Int { return jwWrappedValue.jpegData(compressionQuality: 1)?.count ?? 0 }
     
-    /// 压缩比
+    /// 等比例缩放
+    func jpegData(maxBytesSize: Int) -> Data? { return jwWrappedValue.jpegData(compressionQuality: jwWrappedValue.jw.ratioValue(compressionBytesSize: maxBytesSize)) }
+    
+    /// 当前图片大小跟compressionBytesSize的比例
     func ratioValue(compressionBytesSize: Int) -> CGFloat {
         let oriSize = self.bytesSize
         if oriSize > 0, oriSize > compressionBytesSize {
