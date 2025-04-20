@@ -1,9 +1,9 @@
 PODS:
-  - JWHelperKit (1.1.3):
-    - JWHelperKit/Base (= 1.1.3)
-    - JWHelperKit/Navigation (= 1.1.3)
-  - JWHelperKit/Base (1.1.3)
-  - JWHelperKit/Navigation (1.1.3):
+  - JWHelperKit (1.2.0):
+    - JWHelperKit/Base (= 1.2.0)
+    - JWHelperKit/Navigation (= 1.2.0)
+  - JWHelperKit/Base (1.2.0)
+  - JWHelperKit/Navigation (1.2.0):
     - JWHelperKit/Base
   - SwiftLint (0.32.0)
 
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JWHelperKit: 9ecd6c548dd753477c34481b436ec28e9bf87243
+  JWHelperKit: 1b202d641f65e0c8e457f005d7b3cf63f2d78fcc
   SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
 
 PODFILE CHECKSUM: 8b2680c8fd31e0096a4f73c4abd136d0b3809e2b
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.16.2

@@ -202,8 +202,13 @@ fileprivate extension UIDevice {
     
      static let isIPhone: Bool = (UIDevice.current.userInterfaceIdiom == .phone)
     
-     static let isSimulator: Bool = {
-         return (TARGET_IPHONE_SIMULATOR == 1 && TARGET_OS_IPHONE == 1)
+    static let isSimulator: Bool = {
+        #if targetEnvironment(simulator)
+        return true
+        #else
+        return false
+        #endif
+//        return (TARGET_IPHONE_SIMULATOR == 1 && TARGET_OS_IPHONE == 1)
     }()
 
      static var isIPhoneX: Bool {
